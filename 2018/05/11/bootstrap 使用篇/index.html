@@ -89,13 +89,13 @@
 <meta property="og:site_name" content="小川的博客">
 <meta property="og:description" content="前言 本篇笔记只是简单的一个使用中的小总结，真的很简单，目的是为了以后方便查阅。  准备工作 装包 1npm install boostrap --save  引用 12import &apos;bootstrap/dist/css/bootstrap.css&apos;import &apos;bootstrap&apos; // 引入 bootstrap">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2018/05/11/bootstrap%20使用篇/效果图.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2018/05/11/bootstrap%20使用篇/效果图.gif">
+<meta property="og:image" content="http://www.soulapp.tech/2018/05/11/bootstrap%20使用篇/效果图.png">
+<meta property="og:image" content="http://www.soulapp.tech/2018/05/11/bootstrap%20使用篇/效果图.gif">
 <meta property="og:updated_time" content="2019-09-18T09:48:06.125Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="bootstrap 使用篇">
 <meta name="twitter:description" content="前言 本篇笔记只是简单的一个使用中的小总结，真的很简单，目的是为了以后方便查阅。  准备工作 装包 1npm install boostrap --save  引用 12import &apos;bootstrap/dist/css/bootstrap.css&apos;import &apos;bootstrap&apos; // 引入 bootstrap">
-<meta name="twitter:image" content="http://www.soulapp.tech/blogappdist/2018/05/11/bootstrap%20使用篇/效果图.png">
+<meta name="twitter:image" content="http://www.soulapp.tech/2018/05/11/bootstrap%20使用篇/效果图.png">
 
 
 
@@ -456,7 +456,7 @@
 </blockquote>
 <ul>
 <li>效果图 <blockquote>
-<img src="/blogappdist/2018/05/11/bootstrap%20使用篇/效果图.png" title="效果图">
+<img src="/2018/05/11/bootstrap%20使用篇/效果图.png" title="效果图">
 </blockquote>
 <h2 id="弹窗的使用"><a href="#弹窗的使用" class="headerlink" title="弹窗的使用"></a>弹窗的使用</h2><blockquote>
 <p><a href="https://getbootstrap.com/docs/4.0/components/modal/" target="_blank" rel="noopener">参考文档地址</a> 里面有多种弹窗的源码示例，也有相应的参数说明</p>
@@ -467,7 +467,7 @@
 </li>
 <li><p>效果图 gif</p>
 <blockquote>
-<img src="/blogappdist/2018/05/11/bootstrap%20使用篇/效果图.gif" title="效果图"></blockquote>
+<img src="/2018/05/11/bootstrap%20使用篇/效果图.gif" title="效果图"></blockquote>
 </li>
 <li><p>这里我将这个弹窗作为单独的用户操作结果展示来用，<code>html</code> 结构只是用到了 <code>modal</code></p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 弹窗 --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal fade"</span> <span class="attr">tabindex</span>=<span class="string">"-1"</span> <span class="attr">role</span>=<span class="string">"dialog"</span> <span class="attr">id</span>=<span class="string">"myModal"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-dialog"</span> <span class="attr">role</span>=<span class="string">"document"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-content"</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-header"</span>&gt;</span></span><br><span class="line">            <span class="comment">&lt;!-- &lt;h5 class="modal-title"&gt;&lt;/h5&gt; --&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">"button"</span> <span class="attr">class</span>=<span class="string">"close"</span> <span class="attr">data-dismiss</span>=<span class="string">"modal"</span> <span class="attr">aria-label</span>=<span class="string">"Close"</span>&gt;</span></span><br><span class="line">              <span class="tag">&lt;<span class="name">span</span> <span class="attr">aria-hidden</span>=<span class="string">"true"</span>&gt;</span>&amp;times;<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-body"</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">p</span>&gt;</span>&#123;&#123; modalMsg &#125;&#125;<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"modal-footer"</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">"button"</span> <span class="attr">class</span>=<span class="string">"btn btn-primary"</span> <span class="attr">data-dismiss</span>=<span class="string">"modal"</span>&gt;</span>确定<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">"button"</span> <span class="attr">class</span>=<span class="string">"btn btn-secondary"</span> <span class="attr">data-dismiss</span>=<span class="string">"modal"</span>&gt;</span>关闭<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line">          <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>

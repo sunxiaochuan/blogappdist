@@ -89,12 +89,12 @@
 <meta property="og:site_name" content="小川的博客">
 <meta property="og:description" content="前端跨域有几种方案 首先想到的方法：jsonp  一、为什么要跨域？扩展出 同源策略 的概念">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2018/05/08/前端的跨域问题/协议演示.png">
+<meta property="og:image" content="http://www.soulapp.tech/2018/05/08/前端的跨域问题/协议演示.png">
 <meta property="og:updated_time" content="2018-05-21T10:45:36.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="前端的跨域问题">
 <meta name="twitter:description" content="前端跨域有几种方案 首先想到的方法：jsonp  一、为什么要跨域？扩展出 同源策略 的概念">
-<meta name="twitter:image" content="http://www.soulapp.tech/blogappdist/2018/05/08/前端的跨域问题/协议演示.png">
+<meta name="twitter:image" content="http://www.soulapp.tech/2018/05/08/前端的跨域问题/协议演示.png">
 
 
 
@@ -588,7 +588,7 @@
 <li><p>具体实现的做法</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 在 jsonp 上面的 script  标签中定义传过去的函数名称 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="javascript">  <span class="function"><span class="keyword">function</span> <span class="title">test</span>(<span class="params">data</span>)</span>&#123;</span></span><br><span class="line"><span class="javascript">    <span class="built_in">console</span>.log(data); <span class="comment">// 这里可以输出在 index.php 执行时给传递的数据参数 &#123;"data":"123"&#125;</span></span></span><br><span class="line">  &#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- html 这里向  index.php 传递一个 callback 参数 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"http://www.xxx.com/index.php?callback=test"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line">// php 在这里判断是否接受到 callback 的参数</span><br><span class="line">if(callback)&#123;</span><br><span class="line">  // 有的话就执行</span><br><span class="line">  test(&#123;"data":"123"&#125;) // 这里执行时其实也是相当于 js 脚本执行了一遍</span><br><span class="line">&#125;else&#123;</span><br><span class="line">  // 没有的话直接返回一些数据</span><br><span class="line">  &#123;"data":"123"&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <blockquote>
-<p>上面 <code>jsonp</code> 的简单示例，我在 <code>github</code> 上有个可运行的小源码供参考<a href="https://github.com/sunxiaochuan/simple-demo/tree/master/jsonp-demo">jsonp-demo</a></p>
+<p>上面 <code>jsonp</code> 的简单示例，我在 <code>github</code> 上有个可运行的小源码供参考<a href="https://github.com/sunxiaochuan/simple-demo/tree/master/jsonp-demo" target="_blank" rel="noopener">jsonp-demo</a></p>
 </blockquote>
 </li>
 </ul>
@@ -600,7 +600,7 @@
 </li>
 </ul>
 <h2 id="二、补充知识"><a href="#二、补充知识" class="headerlink" title="二、补充知识"></a>二、补充知识</h2><h3 id="1-文件协议"><a href="#1-文件协议" class="headerlink" title="1. 文件协议"></a>1. 文件协议</h3><blockquote>
-<img src="/blogappdist/2018/05/08/前端的跨域问题/协议演示.png" title="协议演示">
+<img src="/2018/05/08/前端的跨域问题/协议演示.png" title="协议演示">
 <p>如上图所示：以 <code>file:</code> 开头的访问的是本地文件，属于 文件协议，像我们正常在 浏览器中访问的是 <code>http</code> 协议，这两个东西差距大了去了。</p>
 </blockquote>
 <h3 id="2-window-postMessage"><a href="#2-window-postMessage" class="headerlink" title="2. window.postMessage"></a>2. <code>window.postMessage</code></h3><ul>

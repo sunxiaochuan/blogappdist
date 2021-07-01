@@ -89,14 +89,14 @@
 <meta property="og:site_name" content="小川的博客">
 <meta property="og:description" content="引入 jquery 安装 1npm install jquery --save  配置">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2018/05/10/在%20vue%20项目中引入%20jQuery%20使其成为全局方法/配置1.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2018/05/10/在%20vue%20项目中引入%20jQuery%20使其成为全局方法/配置2.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2018/05/10/在%20vue%20项目中引入%20jQuery%20使其成为全局方法/使用.png">
+<meta property="og:image" content="http://www.soulapp.tech/2018/05/10/在%20vue%20项目中引入%20jQuery%20使其成为全局方法/配置1.png">
+<meta property="og:image" content="http://www.soulapp.tech/2018/05/10/在%20vue%20项目中引入%20jQuery%20使其成为全局方法/配置2.png">
+<meta property="og:image" content="http://www.soulapp.tech/2018/05/10/在%20vue%20项目中引入%20jQuery%20使其成为全局方法/使用.png">
 <meta property="og:updated_time" content="2019-09-18T09:48:13.297Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="在 vue 项目中引入 jQuery 使其成为全局方法">
 <meta name="twitter:description" content="引入 jquery 安装 1npm install jquery --save  配置">
-<meta name="twitter:image" content="http://www.soulapp.tech/blogappdist/2018/05/10/在%20vue%20项目中引入%20jQuery%20使其成为全局方法/配置1.png">
+<meta name="twitter:image" content="http://www.soulapp.tech/2018/05/10/在%20vue%20项目中引入%20jQuery%20使其成为全局方法/配置1.png">
 
 
 
@@ -442,13 +442,13 @@
 </ul>
 <a id="more"></a>
 <blockquote>
-<img src="/blogappdist/2018/05/10/在%20vue%20项目中引入%20jQuery%20使其成为全局方法/配置1.png" title="配置1">
-<img src="/blogappdist/2018/05/10/在%20vue%20项目中引入%20jQuery%20使其成为全局方法/配置2.png" title="配置2">
+<img src="/2018/05/10/在%20vue%20项目中引入%20jQuery%20使其成为全局方法/配置1.png" title="配置1">
+<img src="/2018/05/10/在%20vue%20项目中引入%20jQuery%20使其成为全局方法/配置2.png" title="配置2">
 </blockquote>
   <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 先在顶部引入 webpack</span></span><br><span class="line"><span class="keyword">const</span> webpack  = <span class="built_in">require</span>(<span class="string">'webpack'</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">// plugins 中添加</span></span><br><span class="line"><span class="keyword">new</span> webpack.ProvidePlugin(&#123;</span><br><span class="line">    <span class="string">'window.jQuery'</span>: <span class="string">'jquery'</span>, <span class="comment">// 为了兼容其他的插件</span></span><br><span class="line">    jQuery: <span class="string">'jquery'</span>,</span><br><span class="line">    $: <span class="string">'jquery'</span></span><br><span class="line">    &#125;)</span><br></pre></td></tr></table></figure>
 <ul>
 <li>使用<blockquote>
-<img src="/blogappdist/2018/05/10/在%20vue%20项目中引入%20jQuery%20使其成为全局方法/使用.png" title="使用">
+<img src="/2018/05/10/在%20vue%20项目中引入%20jQuery%20使其成为全局方法/使用.png" title="使用">
 </blockquote>
 </li>
 </ul>

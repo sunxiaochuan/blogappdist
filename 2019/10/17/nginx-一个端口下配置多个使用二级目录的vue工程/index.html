@@ -89,17 +89,17 @@
 <meta property="og:site_name" content="小川的博客">
 <meta property="og:description" content="需求这次的需求是将多个 vue 工程集成到一个单独的工程里面使用，用户相关的公用一套，路由也是如此，还要单独加一些新的功能页面进去，简单来说就是将几个工程里的功能合并到一个工程里面，之前每个工程单独的用户登录和路由需要改造（这个之前确实是这样想的）。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2019/10/17/nginx-一个端口下配置多个使用二级目录的vue工程/路由文件修改.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2019/10/17/nginx-一个端口下配置多个使用二级目录的vue工程/nginx配置include.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2019/10/17/nginx-一个端口下配置多个使用二级目录的vue工程/服务器上的目录文件.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2019/10/17/nginx-一个端口下配置多个使用二级目录的vue工程/入口文件测试结果.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2019/10/17/nginx-一个端口下配置多个使用二级目录的vue工程/test1项目测试结果.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2019/10/17/nginx-一个端口下配置多个使用二级目录的vue工程/custInfo项目测试结果.png">
+<meta property="og:image" content="http://www.soulapp.tech/2019/10/17/nginx-一个端口下配置多个使用二级目录的vue工程/路由文件修改.png">
+<meta property="og:image" content="http://www.soulapp.tech/2019/10/17/nginx-一个端口下配置多个使用二级目录的vue工程/nginx配置include.png">
+<meta property="og:image" content="http://www.soulapp.tech/2019/10/17/nginx-一个端口下配置多个使用二级目录的vue工程/服务器上的目录文件.png">
+<meta property="og:image" content="http://www.soulapp.tech/2019/10/17/nginx-一个端口下配置多个使用二级目录的vue工程/入口文件测试结果.png">
+<meta property="og:image" content="http://www.soulapp.tech/2019/10/17/nginx-一个端口下配置多个使用二级目录的vue工程/test1项目测试结果.png">
+<meta property="og:image" content="http://www.soulapp.tech/2019/10/17/nginx-一个端口下配置多个使用二级目录的vue工程/custInfo项目测试结果.png">
 <meta property="og:updated_time" content="2019-10-18T08:47:53.821Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="nginx 一个端口下配置多个使用二级目录的vue工程">
 <meta name="twitter:description" content="需求这次的需求是将多个 vue 工程集成到一个单独的工程里面使用，用户相关的公用一套，路由也是如此，还要单独加一些新的功能页面进去，简单来说就是将几个工程里的功能合并到一个工程里面，之前每个工程单独的用户登录和路由需要改造（这个之前确实是这样想的）。">
-<meta name="twitter:image" content="http://www.soulapp.tech/blogappdist/2019/10/17/nginx-一个端口下配置多个使用二级目录的vue工程/路由文件修改.png">
+<meta name="twitter:image" content="http://www.soulapp.tech/2019/10/17/nginx-一个端口下配置多个使用二级目录的vue工程/路由文件修改.png">
 
 
 
@@ -448,26 +448,26 @@
 </ul>
 <h3 id="重点的操作"><a href="#重点的操作" class="headerlink" title="重点的操作"></a>重点的操作</h3><h4 id="1-修改两个-vue-工程中-vue-config-js-文件的-publicPath-属性，这个改的是-部署应用包时的基本-URL"><a href="#1-修改两个-vue-工程中-vue-config-js-文件的-publicPath-属性，这个改的是-部署应用包时的基本-URL" class="headerlink" title="1.  修改两个 vue 工程中 vue.config.js 文件的 publicPath 属性，这个改的是 部署应用包时的基本 URL"></a>1.  修改两个 <code>vue</code> 工程中 <code>vue.config.js</code> 文件的 <code>publicPath</code> 属性，这个改的是 <a href="https://cli.vuejs.org/zh/config/#publicpath" target="_blank" rel="noopener">部署应用包时的基本 URL</a></h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// test1 项目</span></span><br><span class="line">publicPath: process.env.NODE_ENV === <span class="string">'production'</span> ? <span class="string">'/test1/'</span> : <span class="string">'/'</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// custInfo 项目</span></span><br><span class="line">publicPath: process.env.NODE_ENV === <span class="string">'production'</span> ? <span class="string">'/custInfo/'</span> : <span class="string">'/'</span></span><br></pre></td></tr></table></figure>
 <h4 id="2-修改-vue-工程中的-router-gt-index-js-路由文件，在-new-Router-对象中新增一个-base-属性"><a href="#2-修改-vue-工程中的-router-gt-index-js-路由文件，在-new-Router-对象中新增一个-base-属性" class="headerlink" title="2.  修改 vue 工程中的 router -&gt; index.js 路由文件，在 new Router() 对象中新增一个 base 属性"></a>2.  修改 <code>vue</code> 工程中的 <code>router -&gt; index.js</code> 路由文件，在 <code>new Router()</code> 对象中新增一个 <code>base</code> 属性</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// test1 项目</span></span><br><span class="line">base: process.env.NODE_ENV === <span class="string">'production'</span> ? <span class="string">'/test1/'</span> : <span class="string">'/'</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// custInfo 项目</span></span><br><span class="line">base: process.env.NODE_ENV === <span class="string">'production'</span> ? <span class="string">'/custInfo/'</span> : <span class="string">'/'</span></span><br></pre></td></tr></table></figure>
-<img src="/blogappdist/2019/10/17/nginx-一个端口下配置多个使用二级目录的vue工程/路由文件修改.png" title="路由文件修改">
+<img src="/2019/10/17/nginx-一个端口下配置多个使用二级目录的vue工程/路由文件修改.png" title="路由文件修改">
 <h4 id="3-接着就可以把两个工程各自-yarn-build-打包了，之后将生成两个文件夹-test1-和-custInfo，再单独新建一个有点文字内容的静态文件-index-html，将这三个东西都上传到服务器上，上传的方法我这里是本地压缩成-zip-文件，然后用-scp-命令放到服务器上，再在服务器上用-unzip-命令解压的"><a href="#3-接着就可以把两个工程各自-yarn-build-打包了，之后将生成两个文件夹-test1-和-custInfo，再单独新建一个有点文字内容的静态文件-index-html，将这三个东西都上传到服务器上，上传的方法我这里是本地压缩成-zip-文件，然后用-scp-命令放到服务器上，再在服务器上用-unzip-命令解压的" class="headerlink" title="3.  接着就可以把两个工程各自 yarn build 打包了，之后将生成两个文件夹 test1 和 custInfo，再单独新建一个有点文字内容的静态文件 index.html，将这三个东西都上传到服务器上，上传的方法我这里是本地压缩成 zip 文件，然后用 scp 命令放到服务器上，再在服务器上用 unzip 命令解压的"></a>3.  接着就可以把两个工程各自 <code>yarn build</code> 打包了，之后将生成两个文件夹 <code>test1</code> 和 <code>custInfo</code>，再单独新建一个有点文字内容的静态文件 <code>index.html</code>，将这三个东西都上传到服务器上，上传的方法我这里是本地压缩成 <code>zip</code> 文件，然后用 <code>scp</code> 命令放到服务器上，再在服务器上用 <code>unzip</code> 命令解压的</h4><h4 id="4-简单描述下我的服务器上相关的基本信息"><a href="#4-简单描述下我的服务器上相关的基本信息" class="headerlink" title="4.  简单描述下我的服务器上相关的基本信息"></a>4.  简单描述下我的服务器上相关的基本信息</h4><ul>
 <li>静态文件放置的目录 <code>/home/test/html</code></li>
 <li>因为服务器上多个端口都放置了些东西，这个 <code>test</code> 工程放在了 <code>8889</code> 端口上</li>
-<li>具体的 <a href="http://www.soulapp.tech/2018/05/16/%E4%BD%BF%E7%94%A8%20nginx%20%E9%85%8D%E7%BD%AE%E5%A4%9A%E4%B8%AA%E7%AB%99%E7%82%B9/" target="_blank" rel="noopener">使用 nginx 配置多个站点</a> 的过程这里不再详述了（你也可以不这样操作，只用一个外部公用的配置文件 <code>nginx.conf</code>），简单来说就是在 <code>nginx -&gt; http</code> 配置里面加了一句 <code>include /etc/nginx/sites-enabled/*.conf</code>，然后所有的站点就可以单独在 <code>/etc/nginx/sites-enabled</code> 目录下新建一个相应的 <code>.conf</code> 文件了<img src="/blogappdist/2019/10/17/nginx-一个端口下配置多个使用二级目录的vue工程/nginx配置include.png" title="nginx配置include"></li>
+<li>具体的 <a href="http://www.soulapp.tech/2018/05/16/%E4%BD%BF%E7%94%A8%20nginx%20%E9%85%8D%E7%BD%AE%E5%A4%9A%E4%B8%AA%E7%AB%99%E7%82%B9/">使用 nginx 配置多个站点</a> 的过程这里不再详述了（你也可以不这样操作，只用一个外部公用的配置文件 <code>nginx.conf</code>），简单来说就是在 <code>nginx -&gt; http</code> 配置里面加了一句 <code>include /etc/nginx/sites-enabled/*.conf</code>，然后所有的站点就可以单独在 <code>/etc/nginx/sites-enabled</code> 目录下新建一个相应的 <code>.conf</code> 文件了<img src="/2019/10/17/nginx-一个端口下配置多个使用二级目录的vue工程/nginx配置include.png" title="nginx配置include"></li>
 <li>所有的 <code>.conf</code> 配置文件只需要写 <code>server</code> 对象即可</li>
-<li>最后看一下目录下的文件<img src="/blogappdist/2019/10/17/nginx-一个端口下配置多个使用二级目录的vue工程/服务器上的目录文件.png" title="服务器上的目录文件">
+<li>最后看一下目录下的文件<img src="/2019/10/17/nginx-一个端口下配置多个使用二级目录的vue工程/服务器上的目录文件.png" title="服务器上的目录文件">
 </li>
 </ul>
 <h4 id="5-接着就是重头戏了，写-nginx-配置文件，这里我在-etc-nginx-sites-enabled-目录下新建了一个-sites-test-conf-文件，编辑内容如下"><a href="#5-接着就是重头戏了，写-nginx-配置文件，这里我在-etc-nginx-sites-enabled-目录下新建了一个-sites-test-conf-文件，编辑内容如下" class="headerlink" title="5.  接着就是重头戏了，写 nginx 配置文件，这里我在 /etc/nginx/sites-enabled 目录下新建了一个 sites_test.conf 文件，编辑内容如下"></a>5.  接着就是重头戏了，写 <code>nginx</code> 配置文件，这里我在 <code>/etc/nginx/sites-enabled</code> 目录下新建了一个 <code>sites_test.conf</code> 文件，编辑内容如下</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">  listen       8889;                      # 监听端口</span><br><span class="line">  server_name  www.test.com test.com;     # 站点域名</span><br><span class="line">  root         /home/test/html;       # 站点根目录</span><br><span class="line">  charset      utf-8;                     # 默认编码设置为utf-8</span><br><span class="line">  index      index.html index.htm;      # 默认导航页</span><br><span class="line"></span><br><span class="line">  location / &#123;</span><br><span class="line">      index index.html;</span><br><span class="line">      try_files $uri $uri/ /index.html;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  location /test1 &#123;</span><br><span class="line">      index index.html;</span><br><span class="line">      try_files $uri $uri/ /test1/index.html;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  location /custInfo &#123;</span><br><span class="line">      index index.html;</span><br><span class="line">      try_files $uri $uri/ /custInfo/index.html;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>大功告成？别忘了还得重启一下 <code>nginx</code> 服务哟~<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nginx -s reload</span><br></pre></td></tr></table></figure></p>
 <h4 id="6-好了可以测试了"><a href="#6-好了可以测试了" class="headerlink" title="6.  好了可以测试了"></a>6.  好了可以测试了</h4><ul>
 <li><p><code>index.html</code> 入口文件测试结果</p>
-<img src="/blogappdist/2019/10/17/nginx-一个端口下配置多个使用二级目录的vue工程/入口文件测试结果.png" title="入口文件测试结果">
+<img src="/2019/10/17/nginx-一个端口下配置多个使用二级目录的vue工程/入口文件测试结果.png" title="入口文件测试结果">
 </li>
 <li><p><code>test1</code> 项目测试结果</p>
-<img src="/blogappdist/2019/10/17/nginx-一个端口下配置多个使用二级目录的vue工程/test1项目测试结果.png" title="test1项目测试结果">
+<img src="/2019/10/17/nginx-一个端口下配置多个使用二级目录的vue工程/test1项目测试结果.png" title="test1项目测试结果">
 </li>
 <li><p><code>custInfo</code> 项目测试结果</p>
-<img src="/blogappdist/2019/10/17/nginx-一个端口下配置多个使用二级目录的vue工程/custInfo项目测试结果.png" title="custInfo项目测试结果">
+<img src="/2019/10/17/nginx-一个端口下配置多个使用二级目录的vue工程/custInfo项目测试结果.png" title="custInfo项目测试结果">
 </li>
 </ul>
 <p>bingo！当然了，上面的过程都是自己摸索出来的，嗯~ 被网上的几篇小白文坑了下 0.0，当然了后续还得完善 <code>单点登录</code> 的功能。</p>

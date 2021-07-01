@@ -89,29 +89,29 @@
 <meta property="og:site_name" content="小川的博客">
 <meta property="og:description" content="前言 这个是 GIS 厂商在 ArcGIS API for JavaScript  和 一个Bootstrap主题，用于设计，样式化和创建现代地图应用程序 calcite-maps  两个开源框架的基础上，自行研发的一套应用。由于源码中后端部分使用的是人家自行研发的引擎 GISServer ，涉及到了商业机密，所以本篇文章下面所说的 代码 均代表的是其中可分析的前端源码部分。  线上预览图">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/线上预览图.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/目录结构.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/calcite-maps.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/js.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/jslib.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/default.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/resFeatureLayers.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/BUILDING.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/BUILDING2.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/clientFeatureLayers.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/shandongIPAddress.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/loadFeatureLayer.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/loadFeatureLayer2.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/click.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/showResDetail.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/详情示例.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/定制需求的判断.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/定制需求的判断2.png">
+<meta property="og:image" content="http://www.soulapp.tech/2020/06/09/2020-06-09-山东-GIS-源码分析/线上预览图.png">
+<meta property="og:image" content="http://www.soulapp.tech/2020/06/09/2020-06-09-山东-GIS-源码分析/目录结构.png">
+<meta property="og:image" content="http://www.soulapp.tech/2020/06/09/2020-06-09-山东-GIS-源码分析/calcite-maps.png">
+<meta property="og:image" content="http://www.soulapp.tech/2020/06/09/2020-06-09-山东-GIS-源码分析/js.png">
+<meta property="og:image" content="http://www.soulapp.tech/2020/06/09/2020-06-09-山东-GIS-源码分析/jslib.png">
+<meta property="og:image" content="http://www.soulapp.tech/2020/06/09/2020-06-09-山东-GIS-源码分析/default.png">
+<meta property="og:image" content="http://www.soulapp.tech/2020/06/09/2020-06-09-山东-GIS-源码分析/resFeatureLayers.png">
+<meta property="og:image" content="http://www.soulapp.tech/2020/06/09/2020-06-09-山东-GIS-源码分析/BUILDING.png">
+<meta property="og:image" content="http://www.soulapp.tech/2020/06/09/2020-06-09-山东-GIS-源码分析/BUILDING2.png">
+<meta property="og:image" content="http://www.soulapp.tech/2020/06/09/2020-06-09-山东-GIS-源码分析/clientFeatureLayers.png">
+<meta property="og:image" content="http://www.soulapp.tech/2020/06/09/2020-06-09-山东-GIS-源码分析/shandongIPAddress.png">
+<meta property="og:image" content="http://www.soulapp.tech/2020/06/09/2020-06-09-山东-GIS-源码分析/loadFeatureLayer.png">
+<meta property="og:image" content="http://www.soulapp.tech/2020/06/09/2020-06-09-山东-GIS-源码分析/loadFeatureLayer2.png">
+<meta property="og:image" content="http://www.soulapp.tech/2020/06/09/2020-06-09-山东-GIS-源码分析/click.png">
+<meta property="og:image" content="http://www.soulapp.tech/2020/06/09/2020-06-09-山东-GIS-源码分析/showResDetail.png">
+<meta property="og:image" content="http://www.soulapp.tech/2020/06/09/2020-06-09-山东-GIS-源码分析/详情示例.png">
+<meta property="og:image" content="http://www.soulapp.tech/2020/06/09/2020-06-09-山东-GIS-源码分析/定制需求的判断.png">
+<meta property="og:image" content="http://www.soulapp.tech/2020/06/09/2020-06-09-山东-GIS-源码分析/定制需求的判断2.png">
 <meta property="og:updated_time" content="2020-06-09T09:44:10.931Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="2020-06-09 山东 GIS 源码分析">
 <meta name="twitter:description" content="前言 这个是 GIS 厂商在 ArcGIS API for JavaScript  和 一个Bootstrap主题，用于设计，样式化和创建现代地图应用程序 calcite-maps  两个开源框架的基础上，自行研发的一套应用。由于源码中后端部分使用的是人家自行研发的引擎 GISServer ，涉及到了商业机密，所以本篇文章下面所说的 代码 均代表的是其中可分析的前端源码部分。  线上预览图">
-<meta name="twitter:image" content="http://www.soulapp.tech/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/线上预览图.png">
+<meta name="twitter:image" content="http://www.soulapp.tech/2020/06/09/2020-06-09-山东-GIS-源码分析/线上预览图.png">
 
 
 
@@ -449,9 +449,9 @@
 
       
         <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote>
-<p>这个是 <code>GIS</code> 厂商在 <a href="https://developers.arcgis.com/javascript/" target="_blank" rel="noopener">ArcGIS API for JavaScript</a>  和 <a href="https://github.com/Esri/calcite-maps">一个Bootstrap主题，用于设计，样式化和创建现代地图应用程序 calcite-maps </a> 两个开源框架的基础上，自行研发的一套应用。<br>由于源码中后端部分使用的是人家自行研发的引擎 <code>GISServer</code> ，涉及到了商业机密，所以本篇文章下面所说的 <code>代码</code> 均代表的是其中可分析的前端源码部分。</p>
+<p>这个是 <code>GIS</code> 厂商在 <a href="https://developers.arcgis.com/javascript/" target="_blank" rel="noopener">ArcGIS API for JavaScript</a>  和 <a href="https://github.com/Esri/calcite-maps" target="_blank" rel="noopener">一个Bootstrap主题，用于设计，样式化和创建现代地图应用程序 calcite-maps </a> 两个开源框架的基础上，自行研发的一套应用。<br>由于源码中后端部分使用的是人家自行研发的引擎 <code>GISServer</code> ，涉及到了商业机密，所以本篇文章下面所说的 <code>代码</code> 均代表的是其中可分析的前端源码部分。</p>
 <ul>
-<li>线上预览图<img src="/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/线上预览图.png" title="线上预览图">
+<li>线上预览图<img src="/2020/06/09/2020-06-09-山东-GIS-源码分析/线上预览图.png" title="线上预览图">
 </li>
 </ul>
 </blockquote>
@@ -463,7 +463,7 @@
 </blockquote>
 </li>
 </ul>
-<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><h3 id="1-目录结构分析"><a href="#1-目录结构分析" class="headerlink" title="1.  目录结构分析"></a>1.  目录结构分析</h3><img src="/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/目录结构.png" title="目录结构">
+<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><h3 id="1-目录结构分析"><a href="#1-目录结构分析" class="headerlink" title="1.  目录结构分析"></a>1.  目录结构分析</h3><img src="/2020/06/09/2020-06-09-山东-GIS-源码分析/目录结构.png" title="目录结构">
 <ul>
 <li><p><code>arcgis_js_api</code> 文件夹</p>
 <blockquote>
@@ -481,45 +481,45 @@
 </blockquote>
 </li>
 <li><p><code>shandonggis_v3 -&gt; calcite-maps</code> 文件夹</p>
-<img src="/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/calcite-maps.png" title="calcite-maps">
+<img src="/2020/06/09/2020-06-09-山东-GIS-源码分析/calcite-maps.png" title="calcite-maps">
 <blockquote>
-<p>这个文件夹是 <a href="https://github.com/Esri/calcite-maps">一个Bootstrap主题，用于设计，样式化和创建现代地图应用程序 calcite-maps </a> 开源框架的源码部分。</p>
+<p>这个文件夹是 <a href="https://github.com/Esri/calcite-maps" target="_blank" rel="noopener">一个Bootstrap主题，用于设计，样式化和创建现代地图应用程序 calcite-maps </a> 开源框架的源码部分。</p>
 </blockquote>
 </li>
 <li><p><code>shandonggis_v3 -&gt; js</code> 文件夹</p>
-<img src="/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/js.png" title="js">
+<img src="/2020/06/09/2020-06-09-山东-GIS-源码分析/js.png" title="js">
 <blockquote>
 <p>这个文件夹中的 <code>config</code> 部分主要是应用的配置；<code>library</code> 部分是自定义的可复用组件。</p>
 </blockquote>
 </li>
 <li><p><code>shandonggis_v3 -&gt; jslib</code> 文件夹</p>
-<img src="/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/jslib.png" title="jslib">
+<img src="/2020/06/09/2020-06-09-山东-GIS-源码分析/jslib.png" title="jslib">
 <blockquote>
 <p>里面放的都是常用的第三方插件，例如 <code>jQuery</code></p>
 </blockquote>
 </li>
 </ul>
-<h3 id="2-主要的文件源码分析"><a href="#2-主要的文件源码分析" class="headerlink" title="2.  主要的文件源码分析"></a>2.  主要的文件源码分析</h3><h4 id="1-shandonggis-v3-gt-js-gt-config-gt-default-js-应用使用的配置文件"><a href="#1-shandonggis-v3-gt-js-gt-config-gt-default-js-应用使用的配置文件" class="headerlink" title="1.  shandonggis_v3 -&gt; js -&gt; config -&gt; default.js 应用使用的配置文件"></a>1.  <code>shandonggis_v3 -&gt; js -&gt; config -&gt; default.js</code> 应用使用的配置文件</h4><img src="/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/default.png" title="default">
+<h3 id="2-主要的文件源码分析"><a href="#2-主要的文件源码分析" class="headerlink" title="2.  主要的文件源码分析"></a>2.  主要的文件源码分析</h3><h4 id="1-shandonggis-v3-gt-js-gt-config-gt-default-js-应用使用的配置文件"><a href="#1-shandonggis-v3-gt-js-gt-config-gt-default-js-应用使用的配置文件" class="headerlink" title="1.  shandonggis_v3 -&gt; js -&gt; config -&gt; default.js 应用使用的配置文件"></a>1.  <code>shandonggis_v3 -&gt; js -&gt; config -&gt; default.js</code> 应用使用的配置文件</h4><img src="/2020/06/09/2020-06-09-山东-GIS-源码分析/default.png" title="default">
 <ul>
-<li><code>resFeatureLayers</code> 属性<img src="/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/resFeatureLayers.png" title="resFeatureLayers">
+<li><code>resFeatureLayers</code> 属性<img src="/2020/06/09/2020-06-09-山东-GIS-源码分析/resFeatureLayers.png" title="resFeatureLayers">
 <blockquote>
 <p>这个属性是图层的分类信息，小区、门店之类的</p>
-<img src="/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/BUILDING.png" title="BUILDING">
+<img src="/2020/06/09/2020-06-09-山东-GIS-源码分析/BUILDING.png" title="BUILDING">
 <p><code>fieldInfos</code> 属性是在页面显示图层详情时，需要展示的相应字段</p>
-<img src="/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/BUILDING2.png" title="BUILDING2">
+<img src="/2020/06/09/2020-06-09-山东-GIS-源码分析/BUILDING2.png" title="BUILDING2">
 <p><code>renderFromServerConfig</code> 属性表示的是，是否需要从服务器中取图层的数据</p>
 </blockquote>
 </li>
 </ul>
 <ul>
 <li><p><code>clientFeatureLayers</code> 属性</p>
-<img src="/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/clientFeatureLayers.png" title="clientFeatureLayers">
+<img src="/2020/06/09/2020-06-09-山东-GIS-源码分析/clientFeatureLayers.png" title="clientFeatureLayers">
 <blockquote>
 <p>初始加载的图层列表，分先后顺序：点图层须在面、线图层之后，使点图层在面图层的顶部，这里的文本和 <code>resFeatureLayers</code> 属性中的是一一对应的，只是顺序可以随着自己的需求做调整。</p>
 </blockquote>
 </li>
 <li><p><code>shandongIPAddress</code> 属性</p>
-<img src="/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/shandongIPAddress.png" title="shandongIPAddress">
+<img src="/2020/06/09/2020-06-09-山东-GIS-源码分析/shandongIPAddress.png" title="shandongIPAddress">
 <blockquote>
 <p>山东自定义 IP 地址，判断环境返回本地和线上不同地址</p>
 </blockquote>
@@ -527,22 +527,22 @@
 </ul>
 <h4 id="2-shandonggis-v3-gt-js-gt-library-gt-datang-gt-FeatureLayerLoader-js-应用初始化加载是使用的函数，应用大部分的逻辑都在这个文件中写的"><a href="#2-shandonggis-v3-gt-js-gt-library-gt-datang-gt-FeatureLayerLoader-js-应用初始化加载是使用的函数，应用大部分的逻辑都在这个文件中写的" class="headerlink" title="2.  shandonggis_v3 -&gt; js -&gt; library -&gt; datang -&gt; FeatureLayerLoader.js 应用初始化加载是使用的函数，应用大部分的逻辑都在这个文件中写的"></a>2.  <code>shandonggis_v3 -&gt; js -&gt; library -&gt; datang -&gt; FeatureLayerLoader.js</code> 应用初始化加载是使用的函数，应用大部分的逻辑都在这个文件中写的</h4><ul>
 <li><p><code>loadFeatureLayer</code> 函数</p>
-<img src="/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/loadFeatureLayer.png" title="loadFeatureLayer">
-<img src="/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/loadFeatureLayer2.png" title="loadFeatureLayer2">
+<img src="/2020/06/09/2020-06-09-山东-GIS-源码分析/loadFeatureLayer.png" title="loadFeatureLayer">
+<img src="/2020/06/09/2020-06-09-山东-GIS-源码分析/loadFeatureLayer2.png" title="loadFeatureLayer2">
 <blockquote>
 <p>上图的是 <code>从服务端获取渲染信息和标注信息</code> 的地方，页面上每个图层加载时都会使用该函数</p>
-<img src="/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/click.png" title="click">
+<img src="/2020/06/09/2020-06-09-山东-GIS-源码分析/click.png" title="click">
 <p>上图是每个图层点击时的回调函数，内部使用到了下面要说的 <code>showResDetail</code> 函数</p>
 </blockquote>
 </li>
 <li><p><code>showResDetail</code> 函数</p>
-<img src="/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/showResDetail.png" title="showResDetail">
+<img src="/2020/06/09/2020-06-09-山东-GIS-源码分析/showResDetail.png" title="showResDetail">
 <blockquote>
 <p>该函数主要负责拼接图层详情所需要的内容</p>
-<img src="/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/详情示例.png" title="详情示例">
+<img src="/2020/06/09/2020-06-09-山东-GIS-源码分析/详情示例.png" title="详情示例">
 <p>这里我们这边定制了一个需求：如果地图上的图层点击时包含编号（是否转化的标识），请求我们这边的接口，没有的话使用地图默认的数据，如下图所示</p>
-<img src="/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/定制需求的判断.png" title="定制需求的判断">
-<img src="/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/定制需求的判断2.png" title="定制需求的判断2">
+<img src="/2020/06/09/2020-06-09-山东-GIS-源码分析/定制需求的判断.png" title="定制需求的判断">
+<img src="/2020/06/09/2020-06-09-山东-GIS-源码分析/定制需求的判断2.png" title="定制需求的判断2">
 </blockquote>
 </li>
 </ul>

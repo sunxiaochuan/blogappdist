@@ -89,19 +89,19 @@
 <meta property="og:site_name" content="小川的博客">
 <meta property="og:description" content="准备工作 一台服务器(我的是阿里云的 centos 系统，亦可以使用虚拟机) 服务器上必须已安装 nginx(我的版本是 1.12.2，版本不同可能会存在一些小差异) 服务器还需安装 unzip 包  前言 我的本机是 windows 系统，使用的是 Xshell 软件登录 远程服务器 本机安装的是 cmder 软件，使得可以在本机使用 shell 命令行">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2018/05/16/使用%20nginx%20配置多个站点/桌面压缩包.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2018/05/16/使用%20nginx%20配置多个站点/nginx配置.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2018/05/16/使用%20nginx%20配置多个站点/编辑后的配置.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2018/05/16/使用%20nginx%20配置多个站点/另一个端口编辑后的配置.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2018/05/16/使用%20nginx%20配置多个站点/ip地址测试端口6666.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2018/05/16/使用%20nginx%20配置多个站点/ip地址测试端口8888.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2018/05/16/使用%20nginx%20配置多个站点/端口6666谷歌打开失败.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2018/05/16/使用%20nginx%20配置多个站点/端口6666修改为9999谷歌浏览器成功打开.png">
+<meta property="og:image" content="http://www.soulapp.tech/2018/05/16/使用%20nginx%20配置多个站点/桌面压缩包.png">
+<meta property="og:image" content="http://www.soulapp.tech/2018/05/16/使用%20nginx%20配置多个站点/nginx配置.png">
+<meta property="og:image" content="http://www.soulapp.tech/2018/05/16/使用%20nginx%20配置多个站点/编辑后的配置.png">
+<meta property="og:image" content="http://www.soulapp.tech/2018/05/16/使用%20nginx%20配置多个站点/另一个端口编辑后的配置.png">
+<meta property="og:image" content="http://www.soulapp.tech/2018/05/16/使用%20nginx%20配置多个站点/ip地址测试端口6666.png">
+<meta property="og:image" content="http://www.soulapp.tech/2018/05/16/使用%20nginx%20配置多个站点/ip地址测试端口8888.png">
+<meta property="og:image" content="http://www.soulapp.tech/2018/05/16/使用%20nginx%20配置多个站点/端口6666谷歌打开失败.png">
+<meta property="og:image" content="http://www.soulapp.tech/2018/05/16/使用%20nginx%20配置多个站点/端口6666修改为9999谷歌浏览器成功打开.png">
 <meta property="og:updated_time" content="2019-09-18T09:48:55.826Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用 nginx 配置多个站点">
 <meta name="twitter:description" content="准备工作 一台服务器(我的是阿里云的 centos 系统，亦可以使用虚拟机) 服务器上必须已安装 nginx(我的版本是 1.12.2，版本不同可能会存在一些小差异) 服务器还需安装 unzip 包  前言 我的本机是 windows 系统，使用的是 Xshell 软件登录 远程服务器 本机安装的是 cmder 软件，使得可以在本机使用 shell 命令行">
-<meta name="twitter:image" content="http://www.soulapp.tech/blogappdist/2018/05/16/使用%20nginx%20配置多个站点/桌面压缩包.png">
+<meta name="twitter:image" content="http://www.soulapp.tech/2018/05/16/使用%20nginx%20配置多个站点/桌面压缩包.png">
 
 
 
@@ -460,7 +460,7 @@
 </li>
 <li><p>将本地桌面的两个站点压缩包通过 <code>scp</code> 命令，上传至该目录下，下面的命令是在本机命令行编辑的</p>
 <blockquote>
-<img src="/blogappdist/2018/05/16/使用%20nginx%20配置多个站点/桌面压缩包.png" title="桌面压缩包">
+<img src="/2018/05/16/使用%20nginx%20配置多个站点/桌面压缩包.png" title="桌面压缩包">
 </blockquote>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">scp public.zip dis root@yourserverip:/home/www/blog</span><br><span class="line">enter yourserverpassword</span><br><span class="line"></span><br><span class="line">scp dist.zip dis root@yourserverip:/home/www/fxjiacheng</span><br><span class="line">enter yourserverpassword</span><br></pre></td></tr></table></figure>
 </li>
@@ -472,7 +472,7 @@
 <li><p>之后是重头戏，进入 <code>nginx</code> 配置目录，写相应的配置文件</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cd /etc/nginx</span><br><span class="line">ls</span><br><span class="line"><span class="meta">#</span> 查看 nginx 默认的配置文件</span><br><span class="line">cat nginx.config</span><br></pre></td></tr></table></figure>
 <blockquote>
-<img src="/blogappdist/2018/05/16/使用%20nginx%20配置多个站点/nginx配置.png" title="nginx配置">
+<img src="/2018/05/16/使用%20nginx%20配置多个站点/nginx配置.png" title="nginx配置">
 </blockquote>
 </li>
 </ol>
@@ -485,14 +485,14 @@
 </li>
 <li><p>内容编辑如下</p>
 <blockquote>
-<img src="/blogappdist/2018/05/16/使用%20nginx%20配置多个站点/编辑后的配置.png" title="编辑后的配置"></blockquote>
+<img src="/2018/05/16/使用%20nginx%20配置多个站点/编辑后的配置.png" title="编辑后的配置"></blockquote>
 </li>
 <li><p>以上面同样的方法新建另一个站点配置文件</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi sites_fxjiacheng.conf</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>内容编辑如下</p>
 <blockquote>
-<img src="/blogappdist/2018/05/16/使用%20nginx%20配置多个站点/另一个端口编辑后的配置.png" title="另一个端口编辑后的配置">
+<img src="/2018/05/16/使用%20nginx%20配置多个站点/另一个端口编辑后的配置.png" title="另一个端口编辑后的配置">
 </blockquote>
 </li>
 </ul>
@@ -505,16 +505,16 @@
 </ol>
 <ul>
 <li>浏览器输入你的服务器 IP + 端口号(6666)<blockquote>
-<img src="/blogappdist/2018/05/16/使用%20nginx%20配置多个站点/ip地址测试端口6666.png" title="ip地址测试端口6666"></blockquote>
+<img src="/2018/05/16/使用%20nginx%20配置多个站点/ip地址测试端口6666.png" title="ip地址测试端口6666"></blockquote>
 </li>
 <li>浏览器输入你的服务器 IP + 端口号(8888)<blockquote>
-<img src="/blogappdist/2018/05/16/使用%20nginx%20配置多个站点/ip地址测试端口8888.png" title="ip地址测试端口8888"></blockquote>
+<img src="/2018/05/16/使用%20nginx%20配置多个站点/ip地址测试端口8888.png" title="ip地址测试端口8888"></blockquote>
 </li>
 <li>细心的同学可能发现了，我用了两个不同的浏览器，原因是：6666 这个端口不知何故在谷歌浏览器中总是访问失败~~<blockquote>
-<img src="/blogappdist/2018/05/16/使用%20nginx%20配置多个站点/端口6666谷歌打开失败.png" title="端口6666谷歌打开失败"></blockquote>
+<img src="/2018/05/16/使用%20nginx%20配置多个站点/端口6666谷歌打开失败.png" title="端口6666谷歌打开失败"></blockquote>
 </li>
 <li>更新： 6666 端口问题，我在配置文件中把端口改为 9999 就可以了，推断是端口被某个程序占用所致<blockquote>
-<img src="/blogappdist/2018/05/16/使用%20nginx%20配置多个站点/端口6666修改为9999谷歌浏览器成功打开.png" title="端口6666修改为9999谷歌浏览器成功打开">
+<img src="/2018/05/16/使用%20nginx%20配置多个站点/端口6666修改为9999谷歌浏览器成功打开.png" title="端口6666修改为9999谷歌浏览器成功打开">
 </blockquote>
 </li>
 </ul>

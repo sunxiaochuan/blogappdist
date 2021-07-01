@@ -89,14 +89,14 @@
 <meta property="og:site_name" content="小川的博客">
 <meta property="og:description" content="资料 参考地址  准备工作 PC 端安装 谷歌浏览器 手机需要开启【开发者模式】-&amp;gt;【USB调试】 手机数据线 项目需在PC端本地起一个服务运行">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2018/05/25/利用%20Chrome%20浏览器实现开发的页面在手机上实时同步更新预览/服务启动成功.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2018/05/25/利用%20Chrome%20浏览器实现开发的页面在手机上实时同步更新预览/浏览器预览.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2018/05/25/利用%20Chrome%20浏览器实现开发的页面在手机上实时同步更新预览/演示图.gif">
+<meta property="og:image" content="http://www.soulapp.tech/2018/05/25/利用%20Chrome%20浏览器实现开发的页面在手机上实时同步更新预览/服务启动成功.png">
+<meta property="og:image" content="http://www.soulapp.tech/2018/05/25/利用%20Chrome%20浏览器实现开发的页面在手机上实时同步更新预览/浏览器预览.png">
+<meta property="og:image" content="http://www.soulapp.tech/2018/05/25/利用%20Chrome%20浏览器实现开发的页面在手机上实时同步更新预览/演示图.gif">
 <meta property="og:updated_time" content="2019-09-18T09:48:31.533Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="利用 Chrome 浏览器实现开发的页面在手机上实时同步更新预览">
 <meta name="twitter:description" content="资料 参考地址  准备工作 PC 端安装 谷歌浏览器 手机需要开启【开发者模式】-&amp;gt;【USB调试】 手机数据线 项目需在PC端本地起一个服务运行">
-<meta name="twitter:image" content="http://www.soulapp.tech/blogappdist/2018/05/25/利用%20Chrome%20浏览器实现开发的页面在手机上实时同步更新预览/服务启动成功.png">
+<meta name="twitter:image" content="http://www.soulapp.tech/2018/05/25/利用%20Chrome%20浏览器实现开发的页面在手机上实时同步更新预览/服务启动成功.png">
 
 
 
@@ -422,12 +422,12 @@
 </ul>
 <a id="more"></a>
 <h1 id="开始操作"><a href="#开始操作" class="headerlink" title="开始操作"></a>开始操作</h1><h2 id="1-本地起服务（以-vue-开发为基石的）"><a href="#1-本地起服务（以-vue-开发为基石的）" class="headerlink" title="1.  本地起服务（以 vue 开发为基石的）"></a>1.  本地起服务（以 <a href="https://cn.vuejs.org/" target="_blank" rel="noopener">vue</a> 开发为基石的）</h2><ul>
-<li>我这里使用的是 <a href="https://www.jianshu.com/p/e555bc60b96b" target="_blank" rel="noopener">vue-cli</a> 构建的项目，运行方法 <code>npm run dev</code>，默认的是 <code>8080</code> 端口号，我这边因为开启了多个项目，所以是 <code>8081</code> 端口<img src="/blogappdist/2018/05/25/利用%20Chrome%20浏览器实现开发的页面在手机上实时同步更新预览/服务启动成功.png" title="服务启动成功"></li>
+<li>我这里使用的是 <a href="https://www.jianshu.com/p/e555bc60b96b" target="_blank" rel="noopener">vue-cli</a> 构建的项目，运行方法 <code>npm run dev</code>，默认的是 <code>8080</code> 端口号，我这边因为开启了多个项目，所以是 <code>8081</code> 端口<img src="/2018/05/25/利用%20Chrome%20浏览器实现开发的页面在手机上实时同步更新预览/服务启动成功.png" title="服务启动成功"></li>
 <li>上图证明已编译成功</li>
 </ul>
 <h2 id="2-在-Chrome-浏览器中骚操"><a href="#2-在-Chrome-浏览器中骚操" class="headerlink" title="2.  在 Chrome 浏览器中骚操"></a>2.  在 <code>Chrome</code> 浏览器中骚操</h2><ul>
-<li>谷歌浏览器打开 <code>http://localhost:8081</code> 地址<img src="/blogappdist/2018/05/25/利用%20Chrome%20浏览器实现开发的页面在手机上实时同步更新预览/浏览器预览.png" title="浏览器预览"></li>
-<li><code>F12</code> 打开开发者工具，依次找到 <code>More tools</code> -&gt; <code>Remote devices</code>(远程设备) -&gt; <code>setting</code> -&gt; <code>port forwarding</code>(端口转发)，之后点击 【Add Rule】，输入 【8081】端口号 + 手机端需要请求的地址 <code>localhost:8081</code>，最后点击【Add】按钮保存，下面为 演示 GIF 图<img src="/blogappdist/2018/05/25/利用%20Chrome%20浏览器实现开发的页面在手机上实时同步更新预览/演示图.gif" title="演示图">
+<li>谷歌浏览器打开 <code>http://localhost:8081</code> 地址<img src="/2018/05/25/利用%20Chrome%20浏览器实现开发的页面在手机上实时同步更新预览/浏览器预览.png" title="浏览器预览"></li>
+<li><code>F12</code> 打开开发者工具，依次找到 <code>More tools</code> -&gt; <code>Remote devices</code>(远程设备) -&gt; <code>setting</code> -&gt; <code>port forwarding</code>(端口转发)，之后点击 【Add Rule】，输入 【8081】端口号 + 手机端需要请求的地址 <code>localhost:8081</code>，最后点击【Add】按钮保存，下面为 演示 GIF 图<img src="/2018/05/25/利用%20Chrome%20浏览器实现开发的页面在手机上实时同步更新预览/演示图.gif" title="演示图">
 </li>
 </ul>
 <h2 id="3-上面的是电脑端操作，下面是手机端操作"><a href="#3-上面的是电脑端操作，下面是手机端操作" class="headerlink" title="3.  上面的是电脑端操作，下面是手机端操作"></a>3.  上面的是电脑端操作，下面是手机端操作</h2><ul>

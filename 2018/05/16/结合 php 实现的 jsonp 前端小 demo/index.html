@@ -89,12 +89,12 @@
 <meta property="og:site_name" content="小川的博客">
 <meta property="og:description" content="资料参考原文–JSONP 教程github 源码地址 环境 这里我使用的是 xmapp 集成软件，在本地起的 apache 服务进行测试的 jsonp.php 文件是要放到 xmapp -&amp;gt; htdocs   目录下的">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2018/05/16/结合%20php%20实现的%20jsonp%20前端小%20demo/浏览器效果图.png">
+<meta property="og:image" content="http://www.soulapp.tech/2018/05/16/结合%20php%20实现的%20jsonp%20前端小%20demo/浏览器效果图.png">
 <meta property="og:updated_time" content="2019-09-18T09:48:45.529Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="结合 php 实现的 jsonp 前端小 demo">
 <meta name="twitter:description" content="资料参考原文–JSONP 教程github 源码地址 环境 这里我使用的是 xmapp 集成软件，在本地起的 apache 服务进行测试的 jsonp.php 文件是要放到 xmapp -&amp;gt; htdocs   目录下的">
-<meta name="twitter:image" content="http://www.soulapp.tech/blogappdist/2018/05/16/结合%20php%20实现的%20jsonp%20前端小%20demo/浏览器效果图.png">
+<meta name="twitter:image" content="http://www.soulapp.tech/2018/05/16/结合%20php%20实现的%20jsonp%20前端小%20demo/浏览器效果图.png">
 
 
 
@@ -431,7 +431,7 @@
       
 
       
-        <h1 id="资料"><a href="#资料" class="headerlink" title="资料"></a>资料</h1><p><a href="http://www.runoob.com/json/json-jsonp.html" target="_blank" rel="noopener">参考原文–JSONP 教程</a><br><a href="https://github.com/sunxiaochuan/simple-demo/tree/master/jsonp-demo">github 源码地址</a></p>
+        <h1 id="资料"><a href="#资料" class="headerlink" title="资料"></a>资料</h1><p><a href="http://www.runoob.com/json/json-jsonp.html" target="_blank" rel="noopener">参考原文–JSONP 教程</a><br><a href="https://github.com/sunxiaochuan/simple-demo/tree/master/jsonp-demo" target="_blank" rel="noopener">github 源码地址</a></p>
 <h1 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h1><ul>
 <li>这里我使用的是 <code>xmapp</code> 集成软件，在本地起的 <code>apache</code> 服务进行测试的</li>
 <li>jsonp.php 文件是要放到 xmapp -&gt; htdocs   目录下的</li>
@@ -445,7 +445,7 @@
 <pre><code><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line">	header(<span class="string">'Content-type: application/json'</span>);</span><br><span class="line">	<span class="comment">//获取回调函数名</span></span><br><span class="line">	$jsoncallback = htmlspecialchars($_REQUEST [<span class="string">'jsoncallback'</span>]);</span><br><span class="line">	<span class="comment">//json数据</span></span><br><span class="line">	$json_data = <span class="string">'["customername1","customername2"]'</span>;</span><br><span class="line"><span class="comment">//输出jsonp格式的数据</span></span><br><span class="line"><span class="keyword">echo</span> $jsoncallback . <span class="string">"("</span> . $json_data . <span class="string">")"</span>;</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
 </code></pre></li>
 <li><p>浏览器效果图</p>
-<img src="/blogappdist/2018/05/16/结合%20php%20实现的%20jsonp%20前端小%20demo/浏览器效果图.png" title="浏览器效果图">
+<img src="/2018/05/16/结合%20php%20实现的%20jsonp%20前端小%20demo/浏览器效果图.png" title="浏览器效果图">
 </li>
 </ul>
 

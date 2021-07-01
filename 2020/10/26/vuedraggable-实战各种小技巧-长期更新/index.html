@@ -89,13 +89,13 @@
 <meta property="og:site_name" content="小川的博客">
 <meta property="og:description" content="前言 vuedraggable 是一个基于 Sortable.js 库的 Vue.js 拖拽功能组件。  资料 npm 地址 下载量还是蛮高的   github 地址 star 数还是蛮多的">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2020/10/26/vuedraggable-实战各种小技巧-长期更新/拖拽组件.png">
-<meta property="og:image" content="http://www.soulapp.tech/blogappdist/2020/10/26/vuedraggable-实战各种小技巧-长期更新/目标组件.png">
+<meta property="og:image" content="http://www.soulapp.tech/2020/10/26/vuedraggable-实战各种小技巧-长期更新/拖拽组件.png">
+<meta property="og:image" content="http://www.soulapp.tech/2020/10/26/vuedraggable-实战各种小技巧-长期更新/目标组件.png">
 <meta property="og:updated_time" content="2020-10-26T05:28:23.445Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="vuedraggable 实战各种小技巧(长期更新)">
 <meta name="twitter:description" content="前言 vuedraggable 是一个基于 Sortable.js 库的 Vue.js 拖拽功能组件。  资料 npm 地址 下载量还是蛮高的   github 地址 star 数还是蛮多的">
-<meta name="twitter:image" content="http://www.soulapp.tech/blogappdist/2020/10/26/vuedraggable-实战各种小技巧-长期更新/拖拽组件.png">
+<meta name="twitter:image" content="http://www.soulapp.tech/2020/10/26/vuedraggable-实战各种小技巧-长期更新/拖拽组件.png">
 
 
 
@@ -439,20 +439,20 @@
 <p><a href="https://www.npmjs.com/package/vuedraggable" target="_blank" rel="noopener">npm 地址</a> 下载量还是蛮高的</p>
 </blockquote>
 <blockquote>
-<p><a href="https://github.com/SortableJS/Vue.Draggable">github 地址</a> <code>star</code> 数还是蛮多的</p>
+<p><a href="https://github.com/SortableJS/Vue.Draggable" target="_blank" rel="noopener">github 地址</a> <code>star</code> 数还是蛮多的</p>
 </blockquote>
 <a id="more"></a>
 <blockquote>
 <p><a href="https://sortablejs.github.io/Vue.Draggable/" target="_blank" rel="noopener">官网在线示例</a></p>
 </blockquote>
 <blockquote>
-<p><a href="https://github.com/SortableJS/sortablejs">Sortable.js 库 github 地址</a></p>
+<p><a href="https://github.com/SortableJS/sortablejs" target="_blank" rel="noopener">Sortable.js 库 github 地址</a></p>
 </blockquote>
 <h3 id="简单的安装与使用"><a href="#简单的安装与使用" class="headerlink" title="简单的安装与使用"></a>简单的安装与使用</h3><ol>
 <li><p>安装</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">yarn add vuedraggable</span><br><span class="line"><span class="meta">#</span> or</span><br><span class="line">npm i -S vuedraggable</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>使用（源码出处 <a href="https://github.com/SortableJS/Vue.Draggable/blob/master/example/components/custom-clone.vue">custom-clone</a>）</p>
+<li><p>使用（源码出处 <a href="https://github.com/SortableJS/Vue.Draggable/blob/master/example/components/custom-clone.vue" target="_blank" rel="noopener">custom-clone</a>）</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br></pre></td><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div class=&quot;row&quot;&gt;</span><br><span class="line">    &lt;div class=&quot;col-3&quot;&gt;</span><br><span class="line">      &lt;h3&gt;Draggable 1&lt;/h3&gt;</span><br><span class="line">      &lt;draggable</span><br><span class="line">        class=&quot;dragArea list-group&quot;</span><br><span class="line">        :list=&quot;list1&quot;</span><br><span class="line">        :group=&quot;&#123; name: &apos;people&apos;, pull: &apos;clone&apos;, put: false &#125;&quot;</span><br><span class="line">        :clone=&quot;cloneDog&quot;</span><br><span class="line">        @change=&quot;log&quot;</span><br><span class="line">      &gt;</span><br><span class="line">        &lt;div class=&quot;list-group-item&quot; v-for=&quot;element in list1&quot; :key=&quot;element.id&quot;&gt;</span><br><span class="line">          &#123;&#123; element.name &#125;&#125;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">      &lt;/draggable&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line"></span><br><span class="line">    &lt;div class=&quot;col-3&quot;&gt;</span><br><span class="line">      &lt;h3&gt;Draggable 2&lt;/h3&gt;</span><br><span class="line">      &lt;draggable</span><br><span class="line">        class=&quot;dragArea list-group&quot;</span><br><span class="line">        :list=&quot;list2&quot;</span><br><span class="line">        group=&quot;people&quot;</span><br><span class="line">        @change=&quot;log&quot;</span><br><span class="line">      &gt;</span><br><span class="line">        &lt;div class=&quot;list-group-item&quot; v-for=&quot;element in list2&quot; :key=&quot;element.id&quot;&gt;</span><br><span class="line">          &#123;&#123; element.name &#125;&#125;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">      &lt;/draggable&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line"></span><br><span class="line">    &lt;rawDisplayer class=&quot;col-3&quot; :value=&quot;list1&quot; title=&quot;List 1&quot; /&gt;</span><br><span class="line"></span><br><span class="line">    &lt;rawDisplayer class=&quot;col-3&quot; :value=&quot;list2&quot; title=&quot;List 2&quot; /&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">import draggable from &quot;@/vuedraggable&quot;;</span><br><span class="line">let idGlobal = 8;</span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;custom-clone&quot;,</span><br><span class="line">  display: &quot;Custom Clone&quot;,</span><br><span class="line">  order: 3,</span><br><span class="line">  components: &#123;</span><br><span class="line">    draggable</span><br><span class="line">  &#125;,</span><br><span class="line">  data() &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      list1: [</span><br><span class="line">        &#123; name: &quot;dog 1&quot;, id: 1 &#125;,</span><br><span class="line">        &#123; name: &quot;dog 2&quot;, id: 2 &#125;,</span><br><span class="line">        &#123; name: &quot;dog 3&quot;, id: 3 &#125;,</span><br><span class="line">        &#123; name: &quot;dog 4&quot;, id: 4 &#125;</span><br><span class="line">      ],</span><br><span class="line">      list2: [</span><br><span class="line">        &#123; name: &quot;cat 5&quot;, id: 5 &#125;,</span><br><span class="line">        &#123; name: &quot;cat 6&quot;, id: 6 &#125;,</span><br><span class="line">        &#123; name: &quot;cat 7&quot;, id: 7 &#125;</span><br><span class="line">      ]</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">  methods: &#123;</span><br><span class="line">    log: function(evt) &#123;</span><br><span class="line">      window.console.log(evt);</span><br><span class="line">    &#125;,</span><br><span class="line">    cloneDog(&#123; id &#125;) &#123;</span><br><span class="line">      return &#123;</span><br><span class="line">        id: idGlobal++,</span><br><span class="line">        name: `cat $&#123;id&#125;`</span><br><span class="line">      &#125;;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line">&lt;style scoped&gt;&lt;/style&gt;</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
@@ -466,10 +466,10 @@
 </blockquote>
 <ul>
 <li><p>拖拽组件</p>
-<img src="/blogappdist/2020/10/26/vuedraggable-实战各种小技巧-长期更新/拖拽组件.png" title="拖拽组件">
+<img src="/2020/10/26/vuedraggable-实战各种小技巧-长期更新/拖拽组件.png" title="拖拽组件">
 </li>
 <li><p>目标组件</p>
-<img src="/blogappdist/2020/10/26/vuedraggable-实战各种小技巧-长期更新/目标组件.png" title="目标组件">
+<img src="/2020/10/26/vuedraggable-实战各种小技巧-长期更新/目标组件.png" title="目标组件">
 </li>
 </ul>
 </li>
