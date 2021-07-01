@@ -3,11 +3,11 @@
   <title>小川的博客</title>
   
   <subtitle>记录自己的一个学习和生活的小天地</subtitle>
-  <link href="/blogappdist/atom.xml" rel="self"/>
+  <link href="/atom.xml" rel="self"/>
   
-  <link href="https://github.com/sunxiaochuan/blogappdist/"/>
+  <link href="http://www.soulapp.tech/"/>
   <updated>2020-12-09T07:09:13.738Z</updated>
-  <id>https://github.com/sunxiaochuan/blogappdist/</id>
+  <id>http://www.soulapp.tech/</id>
   
   <author>
     <name>孙小川</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>VS Code 编辑器 Vetur 扩展更新至 0.31.0 版本，无法使用的问题记录</title>
-    <link href="https://github.com/sunxiaochuan/blogappdist/2020/12/09/VS%20Code%20%E7%BC%96%E8%BE%91%E5%99%A8%20Vetur%20%E6%89%A9%E5%B1%95%E6%9B%B4%E6%96%B0%E8%87%B30.31.0%20%E7%89%88%E6%9C%AC%EF%BC%8C%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E7%9A%84%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/"/>
-    <id>https://github.com/sunxiaochuan/blogappdist/2020/12/09/VS Code 编辑器 Vetur 扩展更新至0.31.0 版本，无法使用的问题记录/</id>
+    <link href="http://www.soulapp.tech/2020/12/09/VS%20Code%20%E7%BC%96%E8%BE%91%E5%99%A8%20Vetur%20%E6%89%A9%E5%B1%95%E6%9B%B4%E6%96%B0%E8%87%B30.31.0%20%E7%89%88%E6%9C%AC%EF%BC%8C%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E7%9A%84%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/"/>
+    <id>http://www.soulapp.tech/2020/12/09/VS Code 编辑器 Vetur 扩展更新至0.31.0 版本，无法使用的问题记录/</id>
     <published>2020-12-09T06:59:25.000Z</published>
     <updated>2020-12-09T07:09:13.738Z</updated>
     
@@ -32,19 +32,19 @@
     </summary>
     
     
-      <category term="软件/包的基础操作" scheme="https://github.com/sunxiaochuan/blogappdist/categories/%E8%BD%AF%E4%BB%B6-%E5%8C%85%E7%9A%84%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/"/>
+      <category term="软件/包的基础操作" scheme="http://www.soulapp.tech/categories/%E8%BD%AF%E4%BB%B6-%E5%8C%85%E7%9A%84%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/"/>
     
     
-      <category term="VS Code" scheme="https://github.com/sunxiaochuan/blogappdist/tags/VS-Code/"/>
+      <category term="VS Code" scheme="http://www.soulapp.tech/tags/VS-Code/"/>
     
-      <category term="Vetur" scheme="https://github.com/sunxiaochuan/blogappdist/tags/Vetur/"/>
+      <category term="Vetur" scheme="http://www.soulapp.tech/tags/Vetur/"/>
     
   </entry>
   
   <entry>
     <title>前端将后端返回的数据流生成文件并下载</title>
-    <link href="https://github.com/sunxiaochuan/blogappdist/2020/10/26/%E5%89%8D%E7%AB%AF%E5%B0%86%E5%90%8E%E7%AB%AF%E8%BF%94%E5%9B%9E%E7%9A%84%E6%95%B0%E6%8D%AE%E6%B5%81%E7%94%9F%E6%88%90%E6%96%87%E4%BB%B6%E5%B9%B6%E4%B8%8B%E8%BD%BD/"/>
-    <id>https://github.com/sunxiaochuan/blogappdist/2020/10/26/前端将后端返回的数据流生成文件并下载/</id>
+    <link href="http://www.soulapp.tech/2020/10/26/%E5%89%8D%E7%AB%AF%E5%B0%86%E5%90%8E%E7%AB%AF%E8%BF%94%E5%9B%9E%E7%9A%84%E6%95%B0%E6%8D%AE%E6%B5%81%E7%94%9F%E6%88%90%E6%96%87%E4%BB%B6%E5%B9%B6%E4%B8%8B%E8%BD%BD/"/>
+    <id>http://www.soulapp.tech/2020/10/26/前端将后端返回的数据流生成文件并下载/</id>
     <published>2020-10-26T05:53:22.000Z</published>
     <updated>2020-10-26T05:57:34.923Z</updated>
     
@@ -57,19 +57,19 @@
     </summary>
     
     
-      <category term="代码示例集锦" scheme="https://github.com/sunxiaochuan/blogappdist/categories/%E4%BB%A3%E7%A0%81%E7%A4%BA%E4%BE%8B%E9%9B%86%E9%94%A6/"/>
+      <category term="代码示例集锦" scheme="http://www.soulapp.tech/categories/%E4%BB%A3%E7%A0%81%E7%A4%BA%E4%BE%8B%E9%9B%86%E9%94%A6/"/>
     
     
-      <category term="数据流" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E6%95%B0%E6%8D%AE%E6%B5%81/"/>
+      <category term="数据流" scheme="http://www.soulapp.tech/tags/%E6%95%B0%E6%8D%AE%E6%B5%81/"/>
     
-      <category term="下载" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E4%B8%8B%E8%BD%BD/"/>
+      <category term="下载" scheme="http://www.soulapp.tech/tags/%E4%B8%8B%E8%BD%BD/"/>
     
   </entry>
   
   <entry>
     <title>CSS 手动设置文字换行</title>
-    <link href="https://github.com/sunxiaochuan/blogappdist/2020/10/26/CSS-%E6%89%8B%E5%8A%A8%E8%AE%BE%E7%BD%AE%E6%96%87%E5%AD%97%E6%8D%A2%E8%A1%8C/"/>
-    <id>https://github.com/sunxiaochuan/blogappdist/2020/10/26/CSS-手动设置文字换行/</id>
+    <link href="http://www.soulapp.tech/2020/10/26/CSS-%E6%89%8B%E5%8A%A8%E8%AE%BE%E7%BD%AE%E6%96%87%E5%AD%97%E6%8D%A2%E8%A1%8C/"/>
+    <id>http://www.soulapp.tech/2020/10/26/CSS-手动设置文字换行/</id>
     <published>2020-10-26T05:50:34.000Z</published>
     <updated>2020-10-26T05:58:35.541Z</updated>
     
@@ -85,19 +85,19 @@
     </summary>
     
     
-      <category term="CSS 武艺" scheme="https://github.com/sunxiaochuan/blogappdist/categories/CSS-%E6%AD%A6%E8%89%BA/"/>
+      <category term="CSS 武艺" scheme="http://www.soulapp.tech/categories/CSS-%E6%AD%A6%E8%89%BA/"/>
     
     
-      <category term="css" scheme="https://github.com/sunxiaochuan/blogappdist/tags/css/"/>
+      <category term="css" scheme="http://www.soulapp.tech/tags/css/"/>
     
-      <category term="文字换行" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E6%96%87%E5%AD%97%E6%8D%A2%E8%A1%8C/"/>
+      <category term="文字换行" scheme="http://www.soulapp.tech/tags/%E6%96%87%E5%AD%97%E6%8D%A2%E8%A1%8C/"/>
     
   </entry>
   
   <entry>
     <title>使用 space-between 布局时，最后一行保持左对齐</title>
-    <link href="https://github.com/sunxiaochuan/blogappdist/2020/10/26/%E4%BD%BF%E7%94%A8-space-between-%E5%B8%83%E5%B1%80%E6%97%B6%EF%BC%8C%E6%9C%80%E5%90%8E%E4%B8%80%E8%A1%8C%E4%BF%9D%E6%8C%81%E5%B7%A6%E5%AF%B9%E9%BD%90/"/>
-    <id>https://github.com/sunxiaochuan/blogappdist/2020/10/26/使用-space-between-布局时，最后一行保持左对齐/</id>
+    <link href="http://www.soulapp.tech/2020/10/26/%E4%BD%BF%E7%94%A8-space-between-%E5%B8%83%E5%B1%80%E6%97%B6%EF%BC%8C%E6%9C%80%E5%90%8E%E4%B8%80%E8%A1%8C%E4%BF%9D%E6%8C%81%E5%B7%A6%E5%AF%B9%E9%BD%90/"/>
+    <id>http://www.soulapp.tech/2020/10/26/使用-space-between-布局时，最后一行保持左对齐/</id>
     <published>2020-10-26T05:28:48.000Z</published>
     <updated>2020-10-26T05:49:31.002Z</updated>
     
@@ -112,19 +112,19 @@
     </summary>
     
     
-      <category term="CSS 武艺" scheme="https://github.com/sunxiaochuan/blogappdist/categories/CSS-%E6%AD%A6%E8%89%BA/"/>
+      <category term="CSS 武艺" scheme="http://www.soulapp.tech/categories/CSS-%E6%AD%A6%E8%89%BA/"/>
     
     
-      <category term="css" scheme="https://github.com/sunxiaochuan/blogappdist/tags/css/"/>
+      <category term="css" scheme="http://www.soulapp.tech/tags/css/"/>
     
-      <category term="space-between" scheme="https://github.com/sunxiaochuan/blogappdist/tags/space-between/"/>
+      <category term="space-between" scheme="http://www.soulapp.tech/tags/space-between/"/>
     
   </entry>
   
   <entry>
     <title>vuedraggable 实战各种小技巧(长期更新)</title>
-    <link href="https://github.com/sunxiaochuan/blogappdist/2020/10/26/vuedraggable-%E5%AE%9E%E6%88%98%E5%90%84%E7%A7%8D%E5%B0%8F%E6%8A%80%E5%B7%A7-%E9%95%BF%E6%9C%9F%E6%9B%B4%E6%96%B0/"/>
-    <id>https://github.com/sunxiaochuan/blogappdist/2020/10/26/vuedraggable-实战各种小技巧-长期更新/</id>
+    <link href="http://www.soulapp.tech/2020/10/26/vuedraggable-%E5%AE%9E%E6%88%98%E5%90%84%E7%A7%8D%E5%B0%8F%E6%8A%80%E5%B7%A7-%E9%95%BF%E6%9C%9F%E6%9B%B4%E6%96%B0/"/>
+    <id>http://www.soulapp.tech/2020/10/26/vuedraggable-实战各种小技巧-长期更新/</id>
     <published>2020-10-26T05:12:08.000Z</published>
     <updated>2020-10-26T05:28:23.445Z</updated>
     
@@ -145,23 +145,23 @@
     </summary>
     
     
-      <category term="软件/包的基础操作" scheme="https://github.com/sunxiaochuan/blogappdist/categories/%E8%BD%AF%E4%BB%B6-%E5%8C%85%E7%9A%84%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/"/>
+      <category term="软件/包的基础操作" scheme="http://www.soulapp.tech/categories/%E8%BD%AF%E4%BB%B6-%E5%8C%85%E7%9A%84%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/"/>
     
     
-      <category term="vuedraggable" scheme="https://github.com/sunxiaochuan/blogappdist/tags/vuedraggable/"/>
+      <category term="vuedraggable" scheme="http://www.soulapp.tech/tags/vuedraggable/"/>
     
-      <category term="Vue" scheme="https://github.com/sunxiaochuan/blogappdist/tags/Vue/"/>
+      <category term="Vue" scheme="http://www.soulapp.tech/tags/Vue/"/>
     
-      <category term="实战各种小技巧" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E5%AE%9E%E6%88%98%E5%90%84%E7%A7%8D%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+      <category term="实战各种小技巧" scheme="http://www.soulapp.tech/tags/%E5%AE%9E%E6%88%98%E5%90%84%E7%A7%8D%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
     
-      <category term="长期更新" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E9%95%BF%E6%9C%9F%E6%9B%B4%E6%96%B0/"/>
+      <category term="长期更新" scheme="http://www.soulapp.tech/tags/%E9%95%BF%E6%9C%9F%E6%9B%B4%E6%96%B0/"/>
     
   </entry>
   
   <entry>
     <title>vue 通过 webpack 的 require.context() 实现读取路由文件，动态添加路由的功能</title>
-    <link href="https://github.com/sunxiaochuan/blogappdist/2020/08/06/vue%20%E9%80%9A%E8%BF%87%20webpack%20%E7%9A%84%20require.context()%20%E5%AE%9E%E7%8E%B0%E8%AF%BB%E5%8F%96%E8%B7%AF%E7%94%B1%E6%96%87%E4%BB%B6%EF%BC%8C%E5%8A%A8%E6%80%81%E6%B7%BB%E5%8A%A0%E8%B7%AF%E7%94%B1%E7%9A%84%E5%8A%9F%E8%83%BD/"/>
-    <id>https://github.com/sunxiaochuan/blogappdist/2020/08/06/vue 通过 webpack 的 require.context() 实现读取路由文件，动态添加路由的功能/</id>
+    <link href="http://www.soulapp.tech/2020/08/06/vue%20%E9%80%9A%E8%BF%87%20webpack%20%E7%9A%84%20require.context()%20%E5%AE%9E%E7%8E%B0%E8%AF%BB%E5%8F%96%E8%B7%AF%E7%94%B1%E6%96%87%E4%BB%B6%EF%BC%8C%E5%8A%A8%E6%80%81%E6%B7%BB%E5%8A%A0%E8%B7%AF%E7%94%B1%E7%9A%84%E5%8A%9F%E8%83%BD/"/>
+    <id>http://www.soulapp.tech/2020/08/06/vue 通过 webpack 的 require.context() 实现读取路由文件，动态添加路由的功能/</id>
     <published>2020-08-06T07:58:48.000Z</published>
     <updated>2020-08-06T08:10:41.105Z</updated>
     
@@ -179,25 +179,25 @@
     </summary>
     
     
-      <category term="代码/技能进阶" scheme="https://github.com/sunxiaochuan/blogappdist/categories/%E4%BB%A3%E7%A0%81-%E6%8A%80%E8%83%BD%E8%BF%9B%E9%98%B6/"/>
+      <category term="代码/技能进阶" scheme="http://www.soulapp.tech/categories/%E4%BB%A3%E7%A0%81-%E6%8A%80%E8%83%BD%E8%BF%9B%E9%98%B6/"/>
     
     
-      <category term="vue" scheme="https://github.com/sunxiaochuan/blogappdist/tags/vue/"/>
+      <category term="vue" scheme="http://www.soulapp.tech/tags/vue/"/>
     
-      <category term="技巧" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E6%8A%80%E5%B7%A7/"/>
+      <category term="技巧" scheme="http://www.soulapp.tech/tags/%E6%8A%80%E5%B7%A7/"/>
     
-      <category term="框架" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E6%A1%86%E6%9E%B6/"/>
+      <category term="框架" scheme="http://www.soulapp.tech/tags/%E6%A1%86%E6%9E%B6/"/>
     
-      <category term="三大框架之一" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E4%B8%89%E5%A4%A7%E6%A1%86%E6%9E%B6%E4%B9%8B%E4%B8%80/"/>
+      <category term="三大框架之一" scheme="http://www.soulapp.tech/tags/%E4%B8%89%E5%A4%A7%E6%A1%86%E6%9E%B6%E4%B9%8B%E4%B8%80/"/>
     
-      <category term="vue-router" scheme="https://github.com/sunxiaochuan/blogappdist/tags/vue-router/"/>
+      <category term="vue-router" scheme="http://www.soulapp.tech/tags/vue-router/"/>
     
   </entry>
   
   <entry>
     <title>svg和css实现波浪动效</title>
-    <link href="https://github.com/sunxiaochuan/blogappdist/2020/07/31/svg%E5%92%8Ccss%E5%AE%9E%E7%8E%B0%E6%B3%A2%E6%B5%AA%E5%8A%A8%E6%95%88/"/>
-    <id>https://github.com/sunxiaochuan/blogappdist/2020/07/31/svg和css实现波浪动效/</id>
+    <link href="http://www.soulapp.tech/2020/07/31/svg%E5%92%8Ccss%E5%AE%9E%E7%8E%B0%E6%B3%A2%E6%B5%AA%E5%8A%A8%E6%95%88/"/>
+    <id>http://www.soulapp.tech/2020/07/31/svg和css实现波浪动效/</id>
     <published>2020-07-31T03:31:39.000Z</published>
     <updated>2020-07-31T04:57:27.126Z</updated>
     
@@ -212,21 +212,21 @@
     </summary>
     
     
-      <category term="CSS 武艺" scheme="https://github.com/sunxiaochuan/blogappdist/categories/CSS-%E6%AD%A6%E8%89%BA/"/>
+      <category term="CSS 武艺" scheme="http://www.soulapp.tech/categories/CSS-%E6%AD%A6%E8%89%BA/"/>
     
     
-      <category term="css" scheme="https://github.com/sunxiaochuan/blogappdist/tags/css/"/>
+      <category term="css" scheme="http://www.soulapp.tech/tags/css/"/>
     
-      <category term="svg" scheme="https://github.com/sunxiaochuan/blogappdist/tags/svg/"/>
+      <category term="svg" scheme="http://www.soulapp.tech/tags/svg/"/>
     
-      <category term="动画" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E5%8A%A8%E7%94%BB/"/>
+      <category term="动画" scheme="http://www.soulapp.tech/tags/%E5%8A%A8%E7%94%BB/"/>
     
   </entry>
   
   <entry>
     <title>uni-app 踩坑之路(长期更新)</title>
-    <link href="https://github.com/sunxiaochuan/blogappdist/2020/07/21/uni-app%20%E8%B8%A9%E5%9D%91%E4%B9%8B%E8%B7%AF(%E9%95%BF%E6%9C%9F%E6%9B%B4%E6%96%B0)/"/>
-    <id>https://github.com/sunxiaochuan/blogappdist/2020/07/21/uni-app 踩坑之路(长期更新)/</id>
+    <link href="http://www.soulapp.tech/2020/07/21/uni-app%20%E8%B8%A9%E5%9D%91%E4%B9%8B%E8%B7%AF(%E9%95%BF%E6%9C%9F%E6%9B%B4%E6%96%B0)/"/>
+    <id>http://www.soulapp.tech/2020/07/21/uni-app 踩坑之路(长期更新)/</id>
     <published>2020-07-21T09:37:05.000Z</published>
     <updated>2020-07-28T09:15:12.910Z</updated>
     
@@ -242,19 +242,19 @@
     </summary>
     
     
-      <category term="软件/包的基础操作" scheme="https://github.com/sunxiaochuan/blogappdist/categories/%E8%BD%AF%E4%BB%B6-%E5%8C%85%E7%9A%84%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/"/>
+      <category term="软件/包的基础操作" scheme="http://www.soulapp.tech/categories/%E8%BD%AF%E4%BB%B6-%E5%8C%85%E7%9A%84%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/"/>
     
     
-      <category term="uni-app" scheme="https://github.com/sunxiaochuan/blogappdist/tags/uni-app/"/>
+      <category term="uni-app" scheme="http://www.soulapp.tech/tags/uni-app/"/>
     
-      <category term="踩坑之路" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E8%B8%A9%E5%9D%91%E4%B9%8B%E8%B7%AF/"/>
+      <category term="踩坑之路" scheme="http://www.soulapp.tech/tags/%E8%B8%A9%E5%9D%91%E4%B9%8B%E8%B7%AF/"/>
     
   </entry>
   
   <entry>
     <title>vue-echarts 的使用与踩坑(长期更新)</title>
-    <link href="https://github.com/sunxiaochuan/blogappdist/2020/07/15/vue-echarts-%E7%9A%84%E4%BD%BF%E7%94%A8%E4%B8%8E%E8%B8%A9%E5%9D%91/"/>
-    <id>https://github.com/sunxiaochuan/blogappdist/2020/07/15/vue-echarts-的使用与踩坑/</id>
+    <link href="http://www.soulapp.tech/2020/07/15/vue-echarts-%E7%9A%84%E4%BD%BF%E7%94%A8%E4%B8%8E%E8%B8%A9%E5%9D%91/"/>
+    <id>http://www.soulapp.tech/2020/07/15/vue-echarts-的使用与踩坑/</id>
     <published>2020-07-15T03:26:21.000Z</published>
     <updated>2020-11-02T07:03:13.482Z</updated>
     
@@ -270,19 +270,19 @@
     </summary>
     
     
-      <category term="软件/包的基础操作" scheme="https://github.com/sunxiaochuan/blogappdist/categories/%E8%BD%AF%E4%BB%B6-%E5%8C%85%E7%9A%84%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/"/>
+      <category term="软件/包的基础操作" scheme="http://www.soulapp.tech/categories/%E8%BD%AF%E4%BB%B6-%E5%8C%85%E7%9A%84%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/"/>
     
     
-      <category term="教程" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E6%95%99%E7%A8%8B/"/>
+      <category term="教程" scheme="http://www.soulapp.tech/tags/%E6%95%99%E7%A8%8B/"/>
     
-      <category term="vue-echarts" scheme="https://github.com/sunxiaochuan/blogappdist/tags/vue-echarts/"/>
+      <category term="vue-echarts" scheme="http://www.soulapp.tech/tags/vue-echarts/"/>
     
   </entry>
   
   <entry>
     <title>2020-06-09 山东 GIS 源码分析</title>
-    <link href="https://github.com/sunxiaochuan/blogappdist/2020/06/09/2020-06-09-%E5%B1%B1%E4%B8%9C-GIS-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/"/>
-    <id>https://github.com/sunxiaochuan/blogappdist/2020/06/09/2020-06-09-山东-GIS-源码分析/</id>
+    <link href="http://www.soulapp.tech/2020/06/09/2020-06-09-%E5%B1%B1%E4%B8%9C-GIS-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/"/>
+    <id>http://www.soulapp.tech/2020/06/09/2020-06-09-山东-GIS-源码分析/</id>
     <published>2020-06-09T09:17:27.000Z</published>
     <updated>2020-06-09T09:44:10.931Z</updated>
     
@@ -301,19 +301,19 @@
     </summary>
     
     
-      <category term="工作报告" scheme="https://github.com/sunxiaochuan/blogappdist/categories/%E5%B7%A5%E4%BD%9C%E6%8A%A5%E5%91%8A/"/>
+      <category term="工作报告" scheme="http://www.soulapp.tech/categories/%E5%B7%A5%E4%BD%9C%E6%8A%A5%E5%91%8A/"/>
     
     
-      <category term="工作" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E5%B7%A5%E4%BD%9C/"/>
+      <category term="工作" scheme="http://www.soulapp.tech/tags/%E5%B7%A5%E4%BD%9C/"/>
     
-      <category term="报告" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E6%8A%A5%E5%91%8A/"/>
+      <category term="报告" scheme="http://www.soulapp.tech/tags/%E6%8A%A5%E5%91%8A/"/>
     
   </entry>
   
   <entry>
     <title>使用 serve 在本地预览生产环境构建的代码</title>
-    <link href="https://github.com/sunxiaochuan/blogappdist/2020/05/26/%E4%BD%BF%E7%94%A8-serve-%E5%9C%A8%E6%9C%AC%E5%9C%B0%E9%A2%84%E8%A7%88%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%E6%9E%84%E5%BB%BA%E7%9A%84%E4%BB%A3%E7%A0%81/"/>
-    <id>https://github.com/sunxiaochuan/blogappdist/2020/05/26/使用-serve-在本地预览生产环境构建的代码/</id>
+    <link href="http://www.soulapp.tech/2020/05/26/%E4%BD%BF%E7%94%A8-serve-%E5%9C%A8%E6%9C%AC%E5%9C%B0%E9%A2%84%E8%A7%88%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%E6%9E%84%E5%BB%BA%E7%9A%84%E4%BB%A3%E7%A0%81/"/>
+    <id>http://www.soulapp.tech/2020/05/26/使用-serve-在本地预览生产环境构建的代码/</id>
     <published>2020-05-26T02:55:41.000Z</published>
     <updated>2020-05-26T02:58:11.337Z</updated>
     
@@ -328,25 +328,25 @@
     </summary>
     
     
-      <category term="软件/包的基础操作" scheme="https://github.com/sunxiaochuan/blogappdist/categories/%E8%BD%AF%E4%BB%B6-%E5%8C%85%E7%9A%84%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/"/>
+      <category term="软件/包的基础操作" scheme="http://www.soulapp.tech/categories/%E8%BD%AF%E4%BB%B6-%E5%8C%85%E7%9A%84%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/"/>
     
     
-      <category term="教程" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E6%95%99%E7%A8%8B/"/>
+      <category term="教程" scheme="http://www.soulapp.tech/tags/%E6%95%99%E7%A8%8B/"/>
     
-      <category term="serve" scheme="https://github.com/sunxiaochuan/blogappdist/tags/serve/"/>
+      <category term="serve" scheme="http://www.soulapp.tech/tags/serve/"/>
     
-      <category term="本地运行" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E6%9C%AC%E5%9C%B0%E8%BF%90%E8%A1%8C/"/>
+      <category term="本地运行" scheme="http://www.soulapp.tech/tags/%E6%9C%AC%E5%9C%B0%E8%BF%90%E8%A1%8C/"/>
     
-      <category term="生产环境" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83/"/>
+      <category term="生产环境" scheme="http://www.soulapp.tech/tags/%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83/"/>
     
-      <category term="单页" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E5%8D%95%E9%A1%B5/"/>
+      <category term="单页" scheme="http://www.soulapp.tech/tags/%E5%8D%95%E9%A1%B5/"/>
     
   </entry>
   
   <entry>
     <title>Hexo 主题新增评论和阅读量的功能</title>
-    <link href="https://github.com/sunxiaochuan/blogappdist/2020/05/22/Hexo-%E4%B8%BB%E9%A2%98%E6%96%B0%E5%A2%9E%E8%AF%84%E8%AE%BA%E5%92%8C%E9%98%85%E8%AF%BB%E9%87%8F%E7%9A%84%E5%8A%9F%E8%83%BD/"/>
-    <id>https://github.com/sunxiaochuan/blogappdist/2020/05/22/Hexo-主题新增评论和阅读量的功能/</id>
+    <link href="http://www.soulapp.tech/2020/05/22/Hexo-%E4%B8%BB%E9%A2%98%E6%96%B0%E5%A2%9E%E8%AF%84%E8%AE%BA%E5%92%8C%E9%98%85%E8%AF%BB%E9%87%8F%E7%9A%84%E5%8A%9F%E8%83%BD/"/>
+    <id>http://www.soulapp.tech/2020/05/22/Hexo-主题新增评论和阅读量的功能/</id>
     <published>2020-05-22T06:05:36.000Z</published>
     <updated>2020-05-25T02:47:42.795Z</updated>
     
@@ -367,25 +367,25 @@
     </summary>
     
     
-      <category term="软件/包的基础操作" scheme="https://github.com/sunxiaochuan/blogappdist/categories/%E8%BD%AF%E4%BB%B6-%E5%8C%85%E7%9A%84%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/"/>
+      <category term="软件/包的基础操作" scheme="http://www.soulapp.tech/categories/%E8%BD%AF%E4%BB%B6-%E5%8C%85%E7%9A%84%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/"/>
     
     
-      <category term="Hexo" scheme="https://github.com/sunxiaochuan/blogappdist/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://www.soulapp.tech/tags/Hexo/"/>
     
-      <category term="教程" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E6%95%99%E7%A8%8B/"/>
+      <category term="教程" scheme="http://www.soulapp.tech/tags/%E6%95%99%E7%A8%8B/"/>
     
-      <category term="进阶" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E8%BF%9B%E9%98%B6/"/>
+      <category term="进阶" scheme="http://www.soulapp.tech/tags/%E8%BF%9B%E9%98%B6/"/>
     
-      <category term="hexo-theme-material" scheme="https://github.com/sunxiaochuan/blogappdist/tags/hexo-theme-material/"/>
+      <category term="hexo-theme-material" scheme="http://www.soulapp.tech/tags/hexo-theme-material/"/>
     
-      <category term="娱乐" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E5%A8%B1%E4%B9%90/"/>
+      <category term="娱乐" scheme="http://www.soulapp.tech/tags/%E5%A8%B1%E4%B9%90/"/>
     
   </entry>
   
   <entry>
     <title>2019-10-18随笔</title>
-    <link href="https://github.com/sunxiaochuan/blogappdist/2019/10/18/2019-10-18%E9%9A%8F%E7%AC%94/"/>
-    <id>https://github.com/sunxiaochuan/blogappdist/2019/10/18/2019-10-18随笔/</id>
+    <link href="http://www.soulapp.tech/2019/10/18/2019-10-18%E9%9A%8F%E7%AC%94/"/>
+    <id>http://www.soulapp.tech/2019/10/18/2019-10-18随笔/</id>
     <published>2019-10-18T02:35:31.000Z</published>
     <updated>2019-10-18T08:47:02.092Z</updated>
     
@@ -401,19 +401,19 @@
     </summary>
     
     
-      <category term="随笔" scheme="https://github.com/sunxiaochuan/blogappdist/categories/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://www.soulapp.tech/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="生活" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="http://www.soulapp.tech/tags/%E7%94%9F%E6%B4%BB/"/>
     
-      <category term="随笔" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://www.soulapp.tech/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>nginx 一个端口下配置多个使用二级目录的vue工程</title>
-    <link href="https://github.com/sunxiaochuan/blogappdist/2019/10/17/nginx-%E4%B8%80%E4%B8%AA%E7%AB%AF%E5%8F%A3%E4%B8%8B%E9%85%8D%E7%BD%AE%E5%A4%9A%E4%B8%AA%E4%BD%BF%E7%94%A8%E4%BA%8C%E7%BA%A7%E7%9B%AE%E5%BD%95%E7%9A%84vue%E5%B7%A5%E7%A8%8B/"/>
-    <id>https://github.com/sunxiaochuan/blogappdist/2019/10/17/nginx-一个端口下配置多个使用二级目录的vue工程/</id>
+    <link href="http://www.soulapp.tech/2019/10/17/nginx-%E4%B8%80%E4%B8%AA%E7%AB%AF%E5%8F%A3%E4%B8%8B%E9%85%8D%E7%BD%AE%E5%A4%9A%E4%B8%AA%E4%BD%BF%E7%94%A8%E4%BA%8C%E7%BA%A7%E7%9B%AE%E5%BD%95%E7%9A%84vue%E5%B7%A5%E7%A8%8B/"/>
+    <id>http://www.soulapp.tech/2019/10/17/nginx-一个端口下配置多个使用二级目录的vue工程/</id>
     <published>2019-10-17T08:58:49.000Z</published>
     <updated>2019-10-18T08:47:53.821Z</updated>
     
@@ -426,25 +426,25 @@
     </summary>
     
     
-      <category term="服务器" scheme="https://github.com/sunxiaochuan/blogappdist/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+      <category term="服务器" scheme="http://www.soulapp.tech/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
     
-      <category term="nginx" scheme="https://github.com/sunxiaochuan/blogappdist/tags/nginx/"/>
+      <category term="nginx" scheme="http://www.soulapp.tech/tags/nginx/"/>
     
-      <category term="服务器" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+      <category term="服务器" scheme="http://www.soulapp.tech/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
-      <category term="部署" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E9%83%A8%E7%BD%B2/"/>
+      <category term="部署" scheme="http://www.soulapp.tech/tags/%E9%83%A8%E7%BD%B2/"/>
     
-      <category term="vue" scheme="https://github.com/sunxiaochuan/blogappdist/tags/vue/"/>
+      <category term="vue" scheme="http://www.soulapp.tech/tags/vue/"/>
     
-      <category term="二级目录" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E4%BA%8C%E7%BA%A7%E7%9B%AE%E5%BD%95/"/>
+      <category term="二级目录" scheme="http://www.soulapp.tech/tags/%E4%BA%8C%E7%BA%A7%E7%9B%AE%E5%BD%95/"/>
     
   </entry>
   
   <entry>
     <title>《Google工作法》简记（转载自语雀）</title>
-    <link href="https://github.com/sunxiaochuan/blogappdist/2019/10/14/%E3%80%8AGoogle%E5%B7%A5%E4%BD%9C%E6%B3%95%E3%80%8B%E7%AE%80%E8%AE%B0%EF%BC%88%E8%BD%AC%E8%BD%BD%E8%87%AA%E8%AF%AD%E9%9B%80%EF%BC%89/"/>
-    <id>https://github.com/sunxiaochuan/blogappdist/2019/10/14/《Google工作法》简记（转载自语雀）/</id>
+    <link href="http://www.soulapp.tech/2019/10/14/%E3%80%8AGoogle%E5%B7%A5%E4%BD%9C%E6%B3%95%E3%80%8B%E7%AE%80%E8%AE%B0%EF%BC%88%E8%BD%AC%E8%BD%BD%E8%87%AA%E8%AF%AD%E9%9B%80%EF%BC%89/"/>
+    <id>http://www.soulapp.tech/2019/10/14/《Google工作法》简记（转载自语雀）/</id>
     <published>2019-10-14T10:15:07.000Z</published>
     <updated>2019-10-14T10:18:12.981Z</updated>
     
@@ -467,21 +467,21 @@
     </summary>
     
     
-      <category term="书文摘抄" scheme="https://github.com/sunxiaochuan/blogappdist/categories/%E4%B9%A6%E6%96%87%E6%91%98%E6%8A%84/"/>
+      <category term="书文摘抄" scheme="http://www.soulapp.tech/categories/%E4%B9%A6%E6%96%87%E6%91%98%E6%8A%84/"/>
     
     
-      <category term="转载" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E8%BD%AC%E8%BD%BD/"/>
+      <category term="转载" scheme="http://www.soulapp.tech/tags/%E8%BD%AC%E8%BD%BD/"/>
     
-      <category term="笔记" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E7%AC%94%E8%AE%B0/"/>
+      <category term="笔记" scheme="http://www.soulapp.tech/tags/%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="语雀" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E8%AF%AD%E9%9B%80/"/>
+      <category term="语雀" scheme="http://www.soulapp.tech/tags/%E8%AF%AD%E9%9B%80/"/>
     
   </entry>
   
   <entry>
     <title>2019-10-14随笔</title>
-    <link href="https://github.com/sunxiaochuan/blogappdist/2019/10/14/2019-10-14%E9%9A%8F%E7%AC%94/"/>
-    <id>https://github.com/sunxiaochuan/blogappdist/2019/10/14/2019-10-14随笔/</id>
+    <link href="http://www.soulapp.tech/2019/10/14/2019-10-14%E9%9A%8F%E7%AC%94/"/>
+    <id>http://www.soulapp.tech/2019/10/14/2019-10-14随笔/</id>
     <published>2019-10-14T10:11:12.000Z</published>
     <updated>2019-10-14T13:07:11.765Z</updated>
     
@@ -494,19 +494,19 @@
     </summary>
     
     
-      <category term="随笔" scheme="https://github.com/sunxiaochuan/blogappdist/categories/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://www.soulapp.tech/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="生活" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="http://www.soulapp.tech/tags/%E7%94%9F%E6%B4%BB/"/>
     
-      <category term="随笔" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://www.soulapp.tech/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>2019-10-10随笔</title>
-    <link href="https://github.com/sunxiaochuan/blogappdist/2019/10/10/2019-10-10%E9%9A%8F%E7%AC%94/"/>
-    <id>https://github.com/sunxiaochuan/blogappdist/2019/10/10/2019-10-10随笔/</id>
+    <link href="http://www.soulapp.tech/2019/10/10/2019-10-10%E9%9A%8F%E7%AC%94/"/>
+    <id>http://www.soulapp.tech/2019/10/10/2019-10-10随笔/</id>
     <published>2019-10-10T07:33:11.000Z</published>
     <updated>2019-10-10T08:55:19.787Z</updated>
     
@@ -520,19 +520,19 @@
     </summary>
     
     
-      <category term="随笔" scheme="https://github.com/sunxiaochuan/blogappdist/categories/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://www.soulapp.tech/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="生活" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="http://www.soulapp.tech/tags/%E7%94%9F%E6%B4%BB/"/>
     
-      <category term="随笔" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://www.soulapp.tech/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>single-spa微前端</title>
-    <link href="https://github.com/sunxiaochuan/blogappdist/2019/09/25/single-spa%E5%BE%AE%E5%89%8D%E7%AB%AF/"/>
-    <id>https://github.com/sunxiaochuan/blogappdist/2019/09/25/single-spa微前端/</id>
+    <link href="http://www.soulapp.tech/2019/09/25/single-spa%E5%BE%AE%E5%89%8D%E7%AB%AF/"/>
+    <id>http://www.soulapp.tech/2019/09/25/single-spa微前端/</id>
     <published>2019-09-25T09:05:46.000Z</published>
     <updated>2020-10-26T05:23:05.527Z</updated>
     
@@ -549,19 +549,19 @@
     </summary>
     
     
-      <category term="软件/包的基础操作" scheme="https://github.com/sunxiaochuan/blogappdist/categories/%E8%BD%AF%E4%BB%B6-%E5%8C%85%E7%9A%84%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/"/>
+      <category term="软件/包的基础操作" scheme="http://www.soulapp.tech/categories/%E8%BD%AF%E4%BB%B6-%E5%8C%85%E7%9A%84%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/"/>
     
     
-      <category term="single-spa" scheme="https://github.com/sunxiaochuan/blogappdist/tags/single-spa/"/>
+      <category term="single-spa" scheme="http://www.soulapp.tech/tags/single-spa/"/>
     
-      <category term="微前端" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E5%BE%AE%E5%89%8D%E7%AB%AF/"/>
+      <category term="微前端" scheme="http://www.soulapp.tech/tags/%E5%BE%AE%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
   <entry>
     <title>2019-09-25随笔</title>
-    <link href="https://github.com/sunxiaochuan/blogappdist/2019/09/25/2019-09-25%E9%9A%8F%E7%AC%94/"/>
-    <id>https://github.com/sunxiaochuan/blogappdist/2019/09/25/2019-09-25随笔/</id>
+    <link href="http://www.soulapp.tech/2019/09/25/2019-09-25%E9%9A%8F%E7%AC%94/"/>
+    <id>http://www.soulapp.tech/2019/09/25/2019-09-25随笔/</id>
     <published>2019-09-25T02:59:42.000Z</published>
     <updated>2019-09-25T09:07:59.987Z</updated>
     
@@ -577,19 +577,19 @@
     </summary>
     
     
-      <category term="随笔" scheme="https://github.com/sunxiaochuan/blogappdist/categories/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://www.soulapp.tech/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="生活" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="http://www.soulapp.tech/tags/%E7%94%9F%E6%B4%BB/"/>
     
-      <category term="随笔" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://www.soulapp.tech/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>一份完美的前端开发清单——专为现代网站和极致的开发者打造(转载)</title>
-    <link href="https://github.com/sunxiaochuan/blogappdist/2019/09/20/%E4%B8%80%E4%BB%BD%E5%AE%8C%E7%BE%8E%E7%9A%84%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E6%B8%85%E5%8D%95%E2%80%94%E2%80%94%E4%B8%93%E4%B8%BA%E7%8E%B0%E4%BB%A3%E7%BD%91%E7%AB%99%E5%92%8C%E6%9E%81%E8%87%B4%E7%9A%84%E5%BC%80%E5%8F%91%E8%80%85%E6%89%93%E9%80%A0/"/>
-    <id>https://github.com/sunxiaochuan/blogappdist/2019/09/20/一份完美的前端开发清单——专为现代网站和极致的开发者打造/</id>
+    <link href="http://www.soulapp.tech/2019/09/20/%E4%B8%80%E4%BB%BD%E5%AE%8C%E7%BE%8E%E7%9A%84%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E6%B8%85%E5%8D%95%E2%80%94%E2%80%94%E4%B8%93%E4%B8%BA%E7%8E%B0%E4%BB%A3%E7%BD%91%E7%AB%99%E5%92%8C%E6%9E%81%E8%87%B4%E7%9A%84%E5%BC%80%E5%8F%91%E8%80%85%E6%89%93%E9%80%A0/"/>
+    <id>http://www.soulapp.tech/2019/09/20/一份完美的前端开发清单——专为现代网站和极致的开发者打造/</id>
     <published>2019-09-20T07:50:41.000Z</published>
     <updated>2019-09-27T02:39:06.798Z</updated>
     
@@ -615,14 +615,14 @@
     </summary>
     
     
-      <category term="代码/技能进阶" scheme="https://github.com/sunxiaochuan/blogappdist/categories/%E4%BB%A3%E7%A0%81-%E6%8A%80%E8%83%BD%E8%BF%9B%E9%98%B6/"/>
+      <category term="代码/技能进阶" scheme="http://www.soulapp.tech/categories/%E4%BB%A3%E7%A0%81-%E6%8A%80%E8%83%BD%E8%BF%9B%E9%98%B6/"/>
     
     
-      <category term="前端工程化" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%8C%96/"/>
+      <category term="前端工程化" scheme="http://www.soulapp.tech/tags/%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%8C%96/"/>
     
-      <category term="标准" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E6%A0%87%E5%87%86/"/>
+      <category term="标准" scheme="http://www.soulapp.tech/tags/%E6%A0%87%E5%87%86/"/>
     
-      <category term="规范" scheme="https://github.com/sunxiaochuan/blogappdist/tags/%E8%A7%84%E8%8C%83/"/>
+      <category term="规范" scheme="http://www.soulapp.tech/tags/%E8%A7%84%E8%8C%83/"/>
     
   </entry>
   
